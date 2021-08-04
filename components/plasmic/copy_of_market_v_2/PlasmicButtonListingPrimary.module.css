@@ -1,0 +1,51 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 112px;
+  height: 32px;
+  padding-left: 4px;
+  padding-right: 4px;
+  position: relative;
+  background: #6633ff;
+  border-radius: 2px;
+  border: 2px none #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.navbarListButtonTextParent {
+  display: inline-flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  padding: 2px 4px;
+}
+.navbarListButtonTextParent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.navbarListButtonTextParent > :global(.__wab_flex-container) > *,
+.navbarListButtonTextParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 4px;
+}
+.navbarListButtonSvg {
+  position: relative;
+  object-fit: cover;
+  width: 18px;
+  height: 18px;
+  color: #ffffff /* plasmic-token: 0sUSQIxUOVpXAlb */;
+  flex-shrink: 0;
+}
+.navbarListButtonText {
+  position: relative;
+  line-height: 18px;
+  width: auto;
+  color: #ffffff /* plasmic-token: 0sUSQIxUOVpXAlb */;
+  font-size: 14px;
+  display: inline-block;
+}

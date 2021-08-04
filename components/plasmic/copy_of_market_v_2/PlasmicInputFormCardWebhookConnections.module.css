@@ -1,0 +1,197 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 720px;
+  height: auto;
+  border-radius: 2px;
+  border: 1px none #f1f1f1 /* plasmic-token: akLbEnRWsJyyX4k */;
+}
+.parent__border {
+  border: 2px solid #dddddd /* plasmic-token: slKXmrp1ClI2Nua */;
+}
+.headlineParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  padding: 16px 16px 32px;
+}
+.headlineParent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.headlineParent > :global(.__wab_flex-container) > *,
+.headlineParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 32px;
+}
+.headlineParent__subheadDescription > :global(.__wab_flex-container) {
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.headlineParent__subheadDescription > :global(.__wab_flex-container) > *,
+.headlineParent__subheadDescription
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 0px;
+  margin-top: 32px;
+}
+.headlineSubheadParent {
+  position: relative;
+  left: auto;
+  top: auto;
+  display: flex;
+  flex-direction: column;
+}
+.headlineSubheadParent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.headlineSubheadParent > :global(.__wab_flex-container) > *,
+.headlineSubheadParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 8px;
+}
+.headline {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: column;
+  width: 540px;
+}
+.slotChildren {
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+}
+.subhead {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+}
+.slotSlot {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.4;
+  color: #999999 /* plasmic-token: ofqqjzLWVihRT6L */;
+}
+.buttons {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.buttons > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-left: calc(0px - 32px);
+  width: calc(100% + 32px);
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.buttons > :global(.__wab_flex-container) > *,
+.buttons > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 32px;
+  margin-top: 16px;
+}
+.buttonConnectedAccount___5VVr:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.buttonConnectedAccount__payment___5VVrgBwOz:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.buttonConnectedAccount__accounting___5VVrzBtVr:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.buttonConnectedAccount__subheadDescription___5VVrOfugr:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.buttonConnectedAccount__fb4Re:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.buttonConnectedAccount__payment__fb4RegBwOz:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.buttonConnectedAccount__accounting__fb4RezBtVr:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.descriptionParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 720px;
+  height: 54px;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+  padding: 16px;
+}
+.descriptionParent__subheadDescription {
+  display: none;
+}
+.description {
+  position: relative;
+  left: auto;
+  top: auto;
+  height: auto;
+  width: 540px;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+}
+.descriptionTextParent {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.slotDescription {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.4;
+  color: #666666 /* plasmic-token: Bpqg84Cm8ulE9V1 */;
+}

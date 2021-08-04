@@ -1,0 +1,82 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.parent {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+.parent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 6px);
+  height: calc(100% + 6px);
+}
+.parent > :global(.__wab_flex-container) > *,
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 6px;
+}
+.headlineLabelParent {
+  position: relative;
+  left: auto;
+  top: auto;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 0;
+}
+.headlineLabel {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.slotLabel {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1;
+  color: #333333 /* plasmic-token: GNC_1sONjrft_YW */;
+}
+.inputTextPrimary:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.descriptionParent {
+  position: relative;
+  left: auto;
+  top: auto;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  min-width: 0;
+}
+.descriptionParent__subhead {
+  display: none;
+}
+.descriptionTextParent {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.slotDescription {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.4;
+  color: #666666 /* plasmic-token: Bpqg84Cm8ulE9V1 */;
+}

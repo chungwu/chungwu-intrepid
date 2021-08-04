@@ -1,0 +1,42 @@
+.root {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background: #ffffff;
+  min-width: 0;
+  min-height: 0;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  margin-top: calc(0px - 40px);
+  height: calc(100% + 40px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 40px;
+}
+.serviceListingNavbar {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.progressBar:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}
+.footerB:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}

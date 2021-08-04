@@ -1,0 +1,366 @@
+.root {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background: #ffffff;
+  min-width: 0;
+  min-height: 0;
+}
+.navbarInternal:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.navbarMemberEdit:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.sectionMemberManageProjectsHeader {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  padding: 16px 180px 32px 110px;
+}
+.sectionMemberManageProjectsHeader > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.sectionMemberManageProjectsHeader > :global(.__wab_flex-container) > *,
+.sectionMemberManageProjectsHeader
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 32px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionMemberManageProjectsHeader {
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    min-width: 0;
+    padding: 64px 24px;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionMemberManageProjectsHeader > :global(.__wab_flex-container) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionMemberManageProjectsHeader > :global(.__wab_flex-container) > *,
+  .sectionMemberManageProjectsHeader
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > * {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+.cardHeaderTitleDisplay:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+}
+.freeBox__dd2Zj {
+  font-weight: 700;
+}
+.sectionMemberManageListings {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+  padding: 16px 180px 96px 110px;
+}
+.sectionMemberManageListings > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.sectionMemberManageListings > :global(.__wab_flex-container) > *,
+.sectionMemberManageListings
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 32px;
+}
+.freeBox__xdWaa {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+.freeBox__xdWaa > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.freeBox__xdWaa > :global(.__wab_flex-container) > *,
+.freeBox__xdWaa > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.freeBox__ukoul {
+  height: auto;
+  max-width: 328px;
+}
+.listingManagementBlockParent {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+.listingManagementBlockParent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.listingManagementBlockParent > :global(.__wab_flex-container) > *,
+.listingManagementBlockParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 24px;
+}
+.listingTotalParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.listingTotalParent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.listingTotalParent > :global(.__wab_flex-container) > *,
+.listingTotalParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 8px;
+}
+.listingNumberParent {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+}
+.listingNumber {
+  font-size: 16px;
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+}
+.freeBox__d8BQ8 {
+  position: relative;
+  left: auto;
+  top: auto;
+  font-size: 16px;
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+}
+.freeBox__esis {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  padding: 0px;
+  border: 1px none #dddddd /* plasmic-token: slKXmrp1ClI2Nua */;
+}
+.freeBox__esis > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.freeBox__esis > :global(.__wab_flex-container) > *,
+.freeBox__esis > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 16px;
+}
+.listingSearchFilterParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.searchOrderFilterParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.searchOrderFilterParent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  align-content: unset;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+}
+.searchOrderFilterParent > :global(.__wab_flex-container) > *,
+.searchOrderFilterParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 0px;
+}
+.searchbarPrimary:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.listingSearchFilterDropdownParent {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.listingSearchFilterDropdownParent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.listingSearchFilterDropdownParent > :global(.__wab_flex-container) > *,
+.listingSearchFilterDropdownParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 24px;
+}
+.selectDropdownPrimary__rA4Mr:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.option__ojzfN:global(.__wab_instance) {
+  position: relative;
+}
+.option___30GYl:global(.__wab_instance) {
+  position: relative;
+}
+.selectDropdownPrimary__wo19L:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.option__re4B2:global(.__wab_instance) {
+  position: relative;
+}
+.option__wLufo:global(.__wab_instance) {
+  position: relative;
+}
+.orderTableColumnMain {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  background: #f8f8f8;
+  border: 1px solid #dddddd /* plasmic-token: slKXmrp1ClI2Nua */;
+}
+.orderTableColumnMain > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 2px);
+  height: calc(100% + 2px);
+}
+.orderTableColumnMain > :global(.__wab_flex-container) > *,
+.orderTableColumnMain
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 2px;
+}
+.tableProjectAdminHeader:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.tableProjectAdminRecord__dWmpF:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.tableProjectAdminRecord__hJtzV:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.tableProjectAdminRecord__s40L:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.footerB:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+}

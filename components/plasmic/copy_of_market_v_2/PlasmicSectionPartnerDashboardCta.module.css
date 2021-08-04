@@ -1,0 +1,113 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #ffffff;
+  min-width: 0;
+  padding: 64px 180px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 24px;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root {
+    padding: 64px 180px;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root > :global(.__wab_flex-container) {
+    justify-content: space-evenly;
+    margin-left: calc(0px - 32px);
+    width: calc(100% + 32px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root > :global(.__wab_flex-container) > *,
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+    margin-left: 32px;
+    margin-top: 0px;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .root {
+    padding: 64px 16px;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .root > :global(.__wab_flex-container) {
+    flex-wrap: wrap-reverse;
+    margin-left: calc(0px - 24px);
+    width: calc(100% + 24px);
+    margin-top: calc(0px - 24px);
+    height: calc(100% + 24px);
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .root > :global(.__wab_flex-container) > *,
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+    margin-left: 24px;
+    margin-top: 24px;
+  }
+}
+.cardCta:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.freeBox {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  background: #ffffff;
+  padding: 20px;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .freeBox {
+    width: 100%;
+    justify-content: flex-start;
+    height: auto;
+    min-width: 0;
+    padding: 0px;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+  }
+}
+.img {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 501px;
+  height: 292px;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .img {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+  }
+}

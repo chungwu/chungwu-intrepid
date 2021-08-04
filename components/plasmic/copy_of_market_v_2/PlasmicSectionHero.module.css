@@ -1,0 +1,123 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  position: relative;
+  min-width: 0;
+  padding: 0px;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    min-width: 0;
+    padding: 0px;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .root {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    flex-column-gap: 0px;
+    min-width: 0;
+  }
+}
+.root__persona_partner {
+  width: 100%;
+  padding-left: 0px;
+  height: auto;
+  min-width: 0;
+}
+.heroTextImageDiv {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  flex-wrap: nowrap;
+  align-content: flex-start;
+  background: #ffffff;
+  min-width: 0;
+  padding: 64px 180px;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .heroTextImageDiv {
+    flex-wrap: nowrap;
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .heroTextImageDiv {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    flex-wrap: nowrap;
+    flex-column-gap: 0px;
+    padding: 32px 16px;
+  }
+}
+.heroTextImageDiv__persona_member {
+  padding-left: 180px;
+  padding-bottom: 64px;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .heroTextImageDiv__persona_member {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .heroTextImageDiv__persona_member {
+    padding-right: 16px;
+    padding-left: 16px;
+    padding-bottom: 32px;
+  }
+}
+.heroTextImageDiv__persona_partner {
+  padding-left: 0px;
+  height: 100%;
+  padding-bottom: 64px;
+  min-height: 0;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .heroTextImageDiv__persona_partner {
+    padding-left: 180px;
+    padding-bottom: 64px;
+    padding-top: 64px;
+  }
+}
+.heroWelcomeCta:global(.__wab_instance) {
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+.heroWelcomeCta__persona_member:global(.__wab_instance) {
+  margin: 0px;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .heroWelcomeCta__persona_member:global(.__wab_instance) {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .heroWelcomeCta__persona_member:global(.__wab_instance) {
+    margin-left: 0px;
+  }
+}
+.heroWelcomeCta__persona_partner:global(.__wab_instance) {
+  margin: 0px;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .heroWelcomeCta__persona_partner:global(.__wab_instance) {
+    margin-left: 0px;
+    margin-bottom: 0px;
+  }
+}

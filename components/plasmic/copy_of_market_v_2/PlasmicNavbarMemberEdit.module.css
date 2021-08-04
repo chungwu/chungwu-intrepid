@@ -1,0 +1,116 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  height: 80px;
+  width: 100%;
+  padding-left: 160px;
+  padding-right: 0px;
+  overflow: hidden;
+  position: relative;
+  background: none;
+  min-width: 0;
+  border-top: 2px none #f1f1f1 /* plasmic-token: akLbEnRWsJyyX4k */;
+  border-bottom: 2px solid #f1f1f1 /* plasmic-token: akLbEnRWsJyyX4k */;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 16px;
+  margin-top: 0px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .root {
+    padding-left: 24px;
+  }
+}
+.navLink__c2QLs:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.navLink__navItems_profile__c2QLSv0LBj:global(.__wab_instance) {
+  display: none;
+}
+.navLink__navItems_settings_navItems_profile__c2QLs2V3BsV0LBj:global(.__wab_instance) {
+  display: none;
+}
+.navLink__nra8:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.navLink__navItems_membership__nra88ZJm8:global(.__wab_instance) {
+  display: none;
+}
+.navLink___8RCoo:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.navLink__navItems_team___8RCooEMyhf:global(.__wab_instance) {
+  display: none;
+}
+.navLink__onSiG:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.navLink__navItems_wallet__onSiGxV9Ad:global(.__wab_instance) {
+  display: none;
+}
+.navLink__elPf:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.navLink__navItems_projects__elPFmqM6A:global(.__wab_instance) {
+  display: none;
+}
+.navLink__bfeu6:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.navLink__navItems_lists__bfeu6YqNsQ:global(.__wab_instance) {
+  display: none;
+}
+.navLink__vd2:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.navLink__navItems_reviews__vd2XKmck:global(.__wab_instance) {
+  display: none;
+}
+.navLink__nEz3G:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.navLink__navItems_messages__nEz3GuyzlF:global(.__wab_instance) {
+  display: none;
+}
+.navLink___6J7Bc:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.navLink__navItems_notifications___6J7Bcf0Wus:global(.__wab_instance) {
+  display: none;
+}
+.navLink__lluCh:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.navLink__navItems_settings__lluCh2V3Bs:global(.__wab_instance) {
+  display: none;
+}

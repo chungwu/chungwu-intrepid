@@ -1,0 +1,172 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  position: relative;
+  min-width: 0;
+  padding: 32px 0px 64px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 0px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .root {
+    padding: 16px;
+  }
+}
+.signUpFormContainerDiv {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .signUpFormContainerDiv {
+    width: auto;
+    display: inline-flex;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .signUpFormContainerDiv {
+    width: auto;
+    height: auto;
+    display: inline-flex;
+  }
+}
+.signUpHeadlineDiv {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: auto;
+  padding: 0px;
+}
+.signUpHeadlineDiv > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.signUpHeadlineDiv > :global(.__wab_flex-container) > *,
+.signUpHeadlineDiv > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 16px;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .signUpHeadlineDiv {
+    padding: 0px;
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .signUpHeadlineDiv > :global(.__wab_flex-container) {
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 32px);
+    height: calc(100% + 32px);
+  }
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .signUpHeadlineDiv > :global(.__wab_flex-container) > *,
+  .signUpHeadlineDiv
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > * {
+    margin-left: 0px;
+    margin-top: 32px;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .signUpHeadlineDiv {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0px;
+  }
+}
+.svgLinkDiv {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  align-self: flex-start;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .svgLinkDiv {
+    margin-left: calc(-10px + 0px) !important;
+  }
+}
+.svg {
+  object-fit: cover;
+  width: 48px;
+  height: 48px;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .svg {
+    color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .svg {
+    width: 48px;
+    height: 48px;
+    flex-shrink: 0;
+  }
+}
+.root .svg:hover {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.freeBox {
+  display: block;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+  align-self: stretch;
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .freeBox {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox {
+    font-size: 40px;
+    line-height: 1.5;
+  }
+}
+.cardSignUp:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .cardSignUp:global(.__wab_instance) {
+    left: auto;
+    top: auto;
+  }
+}

@@ -1,0 +1,71 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 900px;
+  background: #ffffff;
+  flex-shrink: 0;
+  padding: 0px 8px 8px;
+  border-right: 1px solid #f1f1f1 /* plasmic-token: akLbEnRWsJyyX4k */;
+}
+.parent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.parent > :global(.__wab_flex-container) > *,
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 4px;
+}
+.headerPanelMainMember {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.memberButtonHeader:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.memberCommunityScores:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.memberMarket:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.panelMemberSectionMember:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.panelMemberSectionAccount:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.panelFooter:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}

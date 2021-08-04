@@ -1,0 +1,146 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.trigger {
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  height: 32px;
+  padding-right: 4px;
+  padding-left: 4px;
+  width: 90px;
+  background: #f8f8f8;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 2px solid #dddddd /* plasmic-token: zNGyZCiLDfJsG7h */;
+}
+.trigger > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.trigger > :global(.__wab_flex-container) > *,
+.trigger > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 4px;
+}
+.trigger__width__90 {
+  width: 90px;
+}
+.trigger__isOpen {
+  background: #f5f5f5;
+}
+.trigger__isDisabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.trigger__color_light {
+  background: #ffffff;
+  border-color: #f1f1f1 /* plasmic-token: akLbEnRWsJyyX4k */;
+}
+.trigger__width__120 {
+  width: 120px;
+}
+.trigger__width__144 {
+  width: 144px;
+}
+.trigger__width__160 {
+  width: 160px;
+}
+.trigger__width__180 {
+  width: 180px;
+}
+.trigger__width__270 {
+  width: 270px;
+}
+.trigger__width__360 {
+  width: 360px;
+}
+.trigger__width__540 {
+  width: 540px;
+}
+.trigger__width__720 {
+  width: 720px;
+}
+.root:focus-within .trigger {
+  outline: none;
+  border-color: #1976d2;
+}
+.root .trigger_____focusVisibleWithin {
+  outline: none;
+  border-style: dashed;
+  border-color: #1976d2;
+}
+.root:hover:not(:focus-within) .trigger {
+  background: #ffffff;
+  outline: none;
+}
+.contentContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+}
+.slotSelectedContent {
+  white-space: pre;
+}
+.slotSelectedContent > *,
+.slotSelectedContent > .__wab_slot > *,
+.slotSelectedContent > .__wab_slot > .__wab_slot > *,
+.slotSelectedContent > .__wab_slot > .__wab_slot > .__wab_slot > * {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.slotPlaceholder {
+  white-space: pre;
+  color: #333333 /* plasmic-token: GNC_1sONjrft_YW */;
+  font-style: normal;
+}
+.slotPlaceholder > *,
+.slotPlaceholder > .__wab_slot > *,
+.slotPlaceholder > .__wab_slot > .__wab_slot > *,
+.slotPlaceholder > .__wab_slot > .__wab_slot > .__wab_slot > * {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.dropdownIcon {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+}
+.root .dropdownIcon_____focusVisibleWithin {
+  outline: none;
+}
+.overlay:global(.__wab_instance) {
+  position: absolute;
+  left: 0px;
+  top: 100%;
+  z-index: 1000;
+}
+.optionsContainer {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+  overflow: auto;
+}
+.option__glfey:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.option__yZj:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}

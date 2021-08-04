@@ -1,0 +1,126 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 360px;
+  height: auto;
+}
+.root:focus {
+  outline: none;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: auto;
+}
+.parent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.parent > :global(.__wab_flex-container) > *,
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 4px;
+}
+.parent__size__180 {
+  width: 180px;
+}
+.parent__size__270 {
+  width: 270px;
+}
+.parent__size__540 {
+  width: 540px;
+}
+.root:focus .parent {
+  outline: none;
+}
+.headlineLabelParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+}
+.slotChildren {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+  line-height: 1.5;
+}
+.textarea {
+  width: 100%;
+  height: 180px;
+  background: #f8f8f8;
+  min-width: 0;
+  flex-shrink: 0;
+  border-radius: 4px;
+  padding: 8px;
+  border: 2px solid #dddddd /* plasmic-token: slKXmrp1ClI2Nua */;
+}
+.textarea__type_secondary {
+  background: #ffffff;
+}
+.textarea__size__180 {
+  display: block;
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.4;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  align-self: stretch;
+  width: 100%;
+  height: 90px;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.textarea__size__270 {
+  width: 100%;
+  height: 180px;
+  font-size: 14px;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.textarea__size__360 {
+  height: 180px;
+  flex-shrink: 0;
+}
+.textarea__size__540 {
+  width: 100%;
+  height: 360px;
+  font-size: 18px;
+  min-width: 0;
+  flex-shrink: 0;
+  padding: 8px;
+}
+.root:hover .textarea {
+  border-color: #333333 /* plasmic-token: fdIR3Y3Hu-kECgI */;
+}
+.root:focus .textarea {
+  background: #f8f8f8;
+  outline: none;
+  border-color: #6633ff /* plasmic-token: VvtJBUIAIMkNk6c */;
+}
+.root__type_secondary:focus .textarea__type_secondary {
+  background: #ffffff;
+  outline: none;
+}
+.subheadParent {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: column;
+}
+.slotSubhead {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.4;
+  color: #999999 /* plasmic-token: FdfLJd_ZiAuzuG5 */;
+}

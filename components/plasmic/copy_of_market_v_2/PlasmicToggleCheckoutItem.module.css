@@ -1,0 +1,98 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 6px);
+  height: calc(100% + 6px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 6px;
+}
+.freeBox___45Ij {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+}
+.freeBox__lsIpk {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 360px;
+}
+.slotSlot {
+  font-weight: 700;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}
+.freeBox__cNh2H {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.freeBox__cNh2H > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.freeBox__cNh2H > :global(.__wab_flex-container) > *,
+.freeBox__cNh2H > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 4px;
+}
+.freeBox__xqBZb {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  top: auto;
+  left: auto;
+  width: auto;
+}
+.freeBox__xqBZb > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.freeBox__xqBZb > :global(.__wab_flex-container) > *,
+.freeBox__xqBZb > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 4px;
+}
+.freeBox__yJbC1 {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.toggleSubscriptionCard__abUeY:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.freeBox___2SYd2 {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 360px;
+  padding-left: 2px;
+  display: flex;
+  flex-direction: column;
+}
+.slotChildren {
+  font-size: 12px;
+}

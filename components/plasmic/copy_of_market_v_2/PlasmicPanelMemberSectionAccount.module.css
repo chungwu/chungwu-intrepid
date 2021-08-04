@@ -1,0 +1,91 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  background: #ffffff;
+  min-width: 0;
+  padding: 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 4px;
+}
+.freeBox__hmsk5 {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  min-width: 0;
+}
+.freeBox__hmsk5 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 6px);
+  height: calc(100% + 6px);
+}
+.freeBox__hmsk5 > :global(.__wab_flex-container) > *,
+.freeBox__hmsk5 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 6px;
+}
+.freeBox__swAj {
+  font-size: 8px;
+  line-height: 1;
+  font-weight: 600;
+  color: #999999 /* plasmic-token: ofqqjzLWVihRT6L */;
+  font-family: "Inter", sans-serif;
+  text-transform: uppercase;
+  letter-spacing: normal;
+}
+.menuIconListItem__whUu:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}
+.freeBox__g8ZCe {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.svg__pq7HQ {
+  object-fit: cover;
+  color: #999999 /* plasmic-token: ofqqjzLWVihRT6L */;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}
+.menuIconListItem__k9LoD:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}
+.freeBox__ruRgh {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.svg__fXsKn {
+  object-fit: cover;
+  color: #999999 /* plasmic-token: ofqqjzLWVihRT6L */;
+  width: 16px;
+  height: 16px;
+  flex-shrink: 0;
+}

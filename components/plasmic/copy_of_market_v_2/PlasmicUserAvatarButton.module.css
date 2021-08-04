@@ -1,0 +1,96 @@
+.avatarButtonEdit {
+  display: flex;
+  width: 120px;
+  height: 120px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 140px;
+  padding: 0px;
+  border-width: 1px;
+  border-style: none;
+}
+.avatarButtonEdit__size__80Px {
+  width: 80px;
+  height: 80px;
+}
+.avatarButtonEdit__size__64Px {
+  width: 64px;
+  height: 64px;
+}
+.avatarButtonEdit__size__48Px {
+  width: 48px;
+  height: 48px;
+}
+.avatarButtonEdit__size__40Px {
+  width: 40px;
+  height: 40px;
+  padding: 0px;
+}
+.avatarButtonEdit__size__32Px {
+  width: 32px;
+  height: 32px;
+}
+.avatarButtonEdit__size__24Px {
+  width: 24px;
+  height: 24px;
+}
+.avatarButtonEdit__size__16Px {
+  width: 16px;
+  height: 16px;
+}
+.avatarButtonEdit:hover {
+  width: 120px;
+  height: 120px;
+  border: 1px solid #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.avatarImageBackground {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 100%;
+  border-width: 0px;
+}
+.avatarImageBackground__size__80Px {
+  width: 80px;
+  height: 80px;
+  flex-shrink: 0;
+}
+.avatarImageBackground__size__40Px {
+  width: 100%;
+  min-width: 0;
+}
+.avatarButtonEdit:hover .avatarImageBackground {
+  border-style: none;
+  border-color: rgb(66, 1, 159);
+}
+.slotAvatarImage {
+  color: #f1f1f1 /* plasmic-token: akLbEnRWsJyyX4k */;
+}
+.slotAvatarImage > *,
+.slotAvatarImage > .__wab_slot > *,
+.slotAvatarImage > .__wab_slot > .__wab_slot > *,
+.slotAvatarImage > .__wab_slot > .__wab_slot > .__wab_slot > * {
+  transition-property: all;
+  transition-duration: 1s;
+}
+.avatarButtonEdit:hover .slotAvatarImage {
+  color: #cccccc /* plasmic-token: dyIWvHS8X2xiIHu */;
+}
+.img__h6F2S {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 100%;
+  border: 2px none #f1f1f1 /* plasmic-token: akLbEnRWsJyyX4k */;
+}

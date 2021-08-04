@@ -1,0 +1,49 @@
+.parent {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.parent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.parent > :global(.__wab_flex-container) > *,
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 20px;
+}
+.parent__border {
+  border-radius: 2px;
+  border: 2px solid #dddddd /* plasmic-token: slKXmrp1ClI2Nua */;
+}
+.personalLoginConnectionAccounts:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.personalConnectedGoogleAccount:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.freeBox__n2V6K {
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}
+.freeBox__uhkvq {
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}
+.personalConnectedFacebookAccount:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.freeBox__vWRgt {
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}
+.freeBox___1ObZu {
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}

@@ -1,0 +1,76 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.slotChildren {
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.inputCardNumberField__nFaid:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.inputCardNumberField__t4HXh:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.inputCardNumberField__serviceType_slidePresentation__t4HXhMzIfY:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}
+.inputCardNumberField__serviceType_designSystem__t4HXhQqXdS:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}
+.inputCardNumberField__serviceType_userResearch__t4HXhbXsH9:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}
+.inputCardNumberField__serviceType_wireframes__t4HXhPleqZ:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}
+.inputCardNumberField__serviceType_webMultiplePage__t4HXhJm8Bd:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}
+.inputCardNumberField__wEoS:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.inputCardNumberField__serviceType_slidePresentation__wEoSMzIfY:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}
+.inputCardNumberField__serviceType_designSystem__wEoSQqXdS:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}
+.inputCardNumberField__serviceType_userResearch__wEoSbXsH9:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}
+.inputCardNumberField__serviceType_wireframes__wEoSPleqZ:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}
+.inputCardNumberField__serviceType_webMultiplePage__wEoSJm8Bd:global(.__wab_instance) {
+  left: auto;
+  top: auto;
+}

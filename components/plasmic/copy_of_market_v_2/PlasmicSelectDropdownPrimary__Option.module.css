@@ -1,0 +1,67 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  width: 100%;
+  height: 32px;
+  align-items: center;
+  justify-content: flex-start;
+  min-width: 0;
+  padding: 4px 8px;
+}
+.root__width__360 {
+  width: 360px;
+}
+.root__width__540 {
+  width: 540px;
+}
+.root__width__720 {
+  width: 720px;
+}
+.root__isHighlighted {
+  background: #f8f8f8;
+}
+.root__isDisabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+.root__width__90 {
+  width: 90px;
+}
+.root__width__120 {
+  width: 120px;
+}
+.root__width__144 {
+  width: 144px;
+}
+.root__width__160 {
+  width: 160px;
+}
+.root__width__180 {
+  width: 180px;
+}
+.root__width__270 {
+  width: 270px;
+}
+.labelContainer {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.slotChildren {
+  white-space: pre;
+  line-height: 1;
+}
+.slotChildren > *,
+.slotChildren > .__wab_slot > *,
+.slotChildren > .__wab_slot > .__wab_slot > *,
+.slotChildren > .__wab_slot > .__wab_slot > .__wab_slot > * {
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.slotChildren__isSelected {
+  color: #000000 /* plasmic-token: -nQtYxWkk4kVc0P */;
+  font-weight: 400;
+}

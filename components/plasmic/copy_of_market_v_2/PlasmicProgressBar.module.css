@@ -1,0 +1,71 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10px;
+  position: relative;
+  background: #f0ebff;
+  min-width: 0;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  left: auto;
+  top: auto;
+  width: 128px;
+  height: 10px;
+  align-self: flex-start;
+  min-width: 10%;
+  background: linear-gradient(110deg, #6633ff 26%, #6633ff33 63%);
+  flex-shrink: 0;
+}
+.freeBox__progress__20 {
+  background: linear-gradient(45deg, #6633ff 39%, #6633ff33 73%, #ffffff 97%);
+  width: 256px;
+  min-width: 20%;
+}
+.freeBox__progress__30 {
+  background: linear-gradient(110deg, #6633ff 39%, #6633ff33 93%);
+  width: 384px;
+  min-width: 30%;
+}
+.freeBox__progress__40 {
+  background: linear-gradient(110deg, #6633ff 62%, #6633ff33 92%);
+  width: 512px;
+  min-width: 40%;
+}
+.freeBox__progress__50 {
+  background: linear-gradient(110deg, #6633ff 49%, #6633ff33 86%);
+  width: 640px;
+  min-width: 50%;
+}
+.freeBox__progress__60 {
+  background: linear-gradient(45deg, #6633ff 65%, #6633ff33 88%);
+  width: 768px;
+  min-width: 60%;
+}
+.freeBox__progress__70 {
+  background: linear-gradient(110deg, #6633ff 61%, #6633ff33 89%);
+  width: 896px;
+  min-width: 70%;
+}
+.freeBox__progress__80 {
+  background: linear-gradient(110deg, #6633ff 63%, #6633ff33 87%);
+  width: 1024px;
+  min-width: 80%;
+}
+.freeBox__progress__90 {
+  background: linear-gradient(110deg, #6633ff 73%, #6633ff33 99%);
+  width: 1152px;
+  min-width: 90%;
+}
+.freeBox__progress__100 {
+  width: 100%;
+  min-width: 98%;
+  background: linear-gradient(110deg, #6633ff 60%, #6633ff33 100%);
+}

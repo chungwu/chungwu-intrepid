@@ -1,0 +1,43 @@
+.buttonTrigger {
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  height: 32px;
+  width: auto;
+  position: relative;
+  background: #ffffff;
+  border-radius: 4px;
+  padding: 2px 6px;
+  border: 2px solid #dddddd /* plasmic-token: slKXmrp1ClI2Nua */;
+}
+.buttonTrigger__trigger_disabled {
+  border-color: #f1f1f1 /* plasmic-token: akLbEnRWsJyyX4k */;
+}
+.buttonTrigger:hover {
+  border-color: #333333 /* plasmic-token: fdIR3Y3Hu-kECgI */;
+}
+.buttonTrigger:active {
+  background: #f0ebff;
+  border-color: #6633ff /* plasmic-token: FJrQ3G_ckkKWHoy */;
+}
+.buttonTrigger__trigger_disabled:hover {
+  border-color: #f1f1f1 /* plasmic-token: akLbEnRWsJyyX4k */;
+}
+.slotText {
+  color: #999999 /* plasmic-token: ofqqjzLWVihRT6L */;
+  line-height: 1;
+  font-size: 14px;
+}
+.slotText__trigger_disabled {
+  color: #e4e4e4 /* plasmic-token: oxE3t7KkCOJf2lU */;
+}
+.buttonTrigger:hover .slotText {
+  color: #000000 /* plasmic-token: -nQtYxWkk4kVc0P */;
+}
+.buttonTrigger:active .slotText {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.buttonTrigger__trigger_disabled:hover .slotText__trigger_disabled {
+  color: #e4e4e4 /* plasmic-token: oxE3t7KkCOJf2lU */;
+}

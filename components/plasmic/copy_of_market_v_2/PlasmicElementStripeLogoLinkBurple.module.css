@@ -1,0 +1,77 @@
+.stripeLink {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.stripeLink__size__16 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+}
+.stripeLink__size__18 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+}
+.stripeLink__size__24 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+}
+.stripeLink__size__32 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+}
+.stripeLink__size__36 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+}
+.stripeLink__size__40 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+}
+.stripeLink__size__48 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+}
+.img {
+  object-fit: cover;
+  height: 24px;
+  flex-shrink: 0;
+}
+.img__size__16 {
+  height: 16px;
+  flex-shrink: 0;
+}
+.img__size__18 {
+  height: 18px;
+  flex-shrink: 0;
+}
+.img__size__24 {
+  height: 24px;
+  flex-shrink: 0;
+}
+.img__size__32 {
+  height: 32px;
+  flex-shrink: 0;
+}
+.img__size__36 {
+  height: 36px;
+  flex-shrink: 0;
+}
+.img__size__40 {
+  height: 40px;
+  flex-shrink: 0;
+}
+.img__size__48 {
+  height: 48px;
+  flex-shrink: 0;
+}

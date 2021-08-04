@@ -1,0 +1,166 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 360px;
+  height: auto;
+  position: relative;
+}
+.unitItemInterval {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  padding-left: 0px;
+}
+.unitItemInterval > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.unitItemInterval > :global(.__wab_flex-container) > *,
+.unitItemInterval > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 8px;
+}
+.unitNumberbackgroundParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+}
+.unitNumberBackground {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: #ebebeb;
+  border-radius: 2px;
+  padding: 2px;
+}
+.unitNumberParent {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  border-radius: 2px;
+  padding: 0px;
+}
+.slotUnitNumber {
+  font-size: 14px;
+  font-weight: 400;
+  text-align: left;
+  line-height: 1;
+}
+.unitTextbackground {
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.slotUnitText {
+  font-size: 14px;
+  text-align: left;
+  line-height: 1;
+}
+.freeBox__tkPSp {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+}
+.freeBox__nm1Dd {
+  font-size: 14px;
+  text-align: left;
+  width: auto;
+  line-height: 1;
+  display: inline-block;
+}
+.timeIntervalBackgroundParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+}
+.timeIntervalBackground {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  background: #ebebeb;
+  border-radius: 2px;
+  padding: 2px;
+}
+.timeIntervalTextParent {
+  width: auto;
+  height: auto;
+  align-self: auto;
+  display: inline-flex;
+  flex-direction: column;
+  border-radius: 2px;
+  padding: 0px;
+}
+.slotTimeIntervalText {
+  font-size: 14px;
+  text-align: left;
+  line-height: 1;
+}
+.currencyTotalValueNumberParent {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  padding-left: 4px;
+}
+.currencyTotalValueNumberParent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.currencyTotalValueNumberParent > :global(.__wab_flex-container) > *,
+.currencyTotalValueNumberParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 4px;
+}
+.currencySymbolParent {
+  display: inline-flex;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.slotCurrencySymbol {
+  font-size: 14px;
+  text-align: left;
+}
+.totalValueNumberParent {
+  display: inline-flex;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.slotTotalValueNumber {
+  font-size: 14px;
+  text-align: left;
+}

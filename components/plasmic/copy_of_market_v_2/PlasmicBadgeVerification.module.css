@@ -1,0 +1,53 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.parent {
+  display: inline-flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  background: #3366ff;
+  border-radius: 16px;
+  padding: 2px 4px 2px 1px;
+  border-width: 0px;
+  border-style: none;
+}
+.parent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: center;
+  margin-left: calc(0px - 2px);
+  width: calc(100% + 2px);
+}
+.parent > :global(.__wab_flex-container) > *,
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 2px;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 12px;
+  height: 12px;
+  color: #ffffff /* plasmic-token: 0sUSQIxUOVpXAlb */;
+  flex-shrink: 0;
+}
+.freeBox {
+  position: relative;
+  left: auto;
+  top: auto;
+  line-height: 12px;
+  font-size: 6px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #ffffff /* plasmic-token: 0sUSQIxUOVpXAlb */;
+  text-align: left;
+  width: auto;
+  height: auto;
+  display: inline-block;
+}

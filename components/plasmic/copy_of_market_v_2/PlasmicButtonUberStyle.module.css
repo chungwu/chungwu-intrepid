@@ -1,0 +1,313 @@
+.linkParent {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: relative;
+  width: 160px;
+  height: auto;
+}
+.linkParent__size__90 {
+  width: 90px;
+}
+.linkParent__size__140 {
+  width: 140px;
+}
+.linkParent__size__270 {
+  width: 270px;
+}
+.linkParent__size__360 {
+  width: 360px;
+}
+.contentParent {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  padding-bottom: 24px;
+  border-bottom-color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  border-bottom-width: 2px;
+  border-left-color: rgba(255, 255, 255, 0.2)
+    /* plasmic-token: X9hrYmBhwvT1dfU */;
+  border-left-width: 1px;
+  border-right-color: rgba(255, 255, 255, 0.2)
+    /* plasmic-token: X9hrYmBhwvT1dfU */;
+  border-right-width: 1px;
+  border-top-color: rgba(255, 255, 255, 0.2)
+    /* plasmic-token: X9hrYmBhwvT1dfU */;
+  border-top-width: 1px;
+  min-width: 0;
+  border-style: solid;
+}
+.contentParent__size__140 {
+  width: 140px;
+}
+.contentParent__size__320 {
+  width: 320px;
+}
+.contentParent__size__360 {
+  width: 100%;
+  min-width: 0;
+}
+.linkParent:hover .contentParent {
+  border-bottom-color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.textIconParent {
+  position: relative;
+  left: auto;
+  top: auto;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-between;
+  height: auto;
+  align-items: center;
+  min-width: 0;
+  margin: 0px;
+}
+.textIconParent__size__140 {
+  align-items: center;
+}
+.textParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+}
+.slotChildren {
+  font-size: 12px;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.slotChildren__size__140 {
+  font-size: 14px;
+}
+.slotChildren__size__270 {
+  font-size: 14px;
+}
+.slotChildren__size__320 {
+  font-size: 16px;
+}
+.slotChildren__size__360 {
+  font-size: 16px;
+}
+.linkParent:hover .slotChildren {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.slotText90 {
+  font-size: 12px;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.slotText90__size__90 {
+  font-size: 8px;
+}
+.slotText90__size__140 {
+  font-size: 14px;
+}
+.slotText90__size__320 {
+  font-size: 16px;
+}
+.slotText90__size__360 {
+  font-size: 16px;
+}
+.linkParent:hover .slotText90 {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.slotText140 {
+  font-size: 12px;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  line-height: 1;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+.slotText140__size__140 {
+  font-size: 10px;
+}
+.slotText140__size__320 {
+  font-size: 16px;
+}
+.slotText140__size__360 {
+  font-size: 16px;
+}
+.linkParent:hover .slotText140 {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.arrowParent {
+  display: inline-flex;
+  position: relative;
+  align-self: flex-end;
+  width: auto;
+  height: 100%;
+  align-items: center;
+  flex-direction: column;
+  justify-content: flex-start;
+  min-height: 0;
+  margin: 0px;
+}
+.arrowParent__size__140 {
+  align-self: center;
+  align-items: center;
+  margin: 0px;
+}
+.arrowParent__size__160 {
+  height: 100%;
+  min-height: 0;
+}
+.arrowParent__size__360 {
+  width: auto;
+  height: auto;
+  display: inline-flex;
+  margin: 0px;
+}
+.slotSlot {
+  font-size: 12px;
+  line-height: 1;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  font-weight: 600;
+}
+.slotSlot__size__140 {
+  font-size: 14px;
+  line-height: 1;
+}
+.slotSlot__size__320 {
+  font-size: 16px;
+}
+.slotSlot__size__360 {
+  font-size: 16px;
+}
+.linkParent:hover .slotSlot {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.slotArrow160 {
+  font-size: 14px;
+  line-height: 1;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}
+.slotArrow160__size__140 {
+  font-size: 14px;
+  line-height: 1;
+}
+.slotArrow160__size__160 {
+  font-size: 12px;
+  font-weight: 600;
+}
+.slotArrow160__size__320 {
+  font-size: 16px;
+}
+.slotArrow160__size__360 {
+  font-size: 16px;
+}
+.linkParent:hover .slotArrow160 {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.slotArrow270 {
+  font-size: 14px;
+  line-height: 1;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}
+.slotArrow270__size__140 {
+  font-size: 14px;
+  line-height: 1;
+}
+.slotArrow270__size__270 {
+  font-size: 14px;
+  font-weight: 600;
+}
+.slotArrow270__size__320 {
+  font-size: 16px;
+}
+.slotArrow270__size__360 {
+  font-size: 16px;
+}
+.linkParent:hover .slotArrow270 {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.slotArrow140 {
+  font-size: 14px;
+  line-height: 1;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}
+.slotArrow140__size__140 {
+  font-size: 10px;
+  line-height: 1;
+  font-weight: 600;
+}
+.slotArrow140__size__320 {
+  font-size: 16px;
+}
+.slotArrow140__size__360 {
+  font-size: 16px;
+}
+.linkParent:hover .slotArrow140 {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.slotArrow360 {
+  font-size: 14px;
+  line-height: 1;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}
+.slotArrow360__size__140 {
+  font-size: 14px;
+  line-height: 1;
+}
+.slotArrow360__size__320 {
+  font-size: 16px;
+}
+.slotArrow360__size__360 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.linkParent:hover .slotArrow360 {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.slotArrow320 {
+  font-size: 14px;
+  line-height: 1;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}
+.slotArrow320__size__140 {
+  font-size: 14px;
+  line-height: 1;
+}
+.slotArrow320__size__320 {
+  font-size: 16px;
+  font-weight: 600;
+}
+.slotArrow320__size__360 {
+  font-size: 16px;
+}
+.linkParent:hover .slotArrow320 {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.slotArrow90 {
+  font-size: 14px;
+  line-height: 1;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}
+.slotArrow90__size__90 {
+  font-weight: 600;
+  font-size: 8px;
+}
+.slotArrow90__size__140 {
+  font-size: 14px;
+  line-height: 1;
+}
+.slotArrow90__size__320 {
+  font-size: 16px;
+}
+.slotArrow90__size__360 {
+  font-size: 16px;
+}
+.linkParent:hover .slotArrow90 {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}

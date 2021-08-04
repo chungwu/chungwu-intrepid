@@ -1,0 +1,109 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.parent {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: auto;
+  min-width: 0;
+  padding: 0px;
+  border: 1px none #dddddd /* plasmic-token: slKXmrp1ClI2Nua */;
+}
+.parent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.parent > :global(.__wab_flex-container) > *,
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 4px;
+}
+.usernamePartnerProfileName {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-self: center;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.usernamePartnerProfileName > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.usernamePartnerProfileName > :global(.__wab_flex-container) > *,
+.usernamePartnerProfileName
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 4px;
+}
+.campanyDisplayNameParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.companyNameText {
+  font-size: 14px;
+  text-align: left;
+  line-height: 1;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  width: 100%;
+  height: auto;
+  font-weight: 600;
+  min-width: 0;
+}
+.partnerDisplayName {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.atSgin {
+  font-size: 12px;
+  text-align: left;
+  line-height: 1;
+  color: #999999 /* plasmic-token: ofqqjzLWVihRT6L */;
+  width: auto;
+  display: inline-block;
+}
+.companyNameDisplay {
+  font-size: 12px;
+  text-align: left;
+  line-height: 1;
+  color: #999999 /* plasmic-token: ofqqjzLWVihRT6L */;
+  width: auto;
+  display: inline-block;
+}
+.dropDownUserSettingsTrigger {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}

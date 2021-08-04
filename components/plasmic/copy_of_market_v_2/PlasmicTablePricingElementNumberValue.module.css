@@ -1,0 +1,93 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  position: relative;
+  min-width: 0;
+  padding: 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 8px;
+}
+.svgIconParent {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+}
+.svg__mqNrG {
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  flex-shrink: 0;
+}
+.numberValuePercentParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  top: auto;
+  left: auto;
+}
+.numberValuePercentParent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+}
+.numberValuePercentParent > :global(.__wab_flex-container) > *,
+.numberValuePercentParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 0px;
+}
+.numberValueParent {
+  display: inline-flex;
+  position: relative;
+  width: auto;
+}
+.slotNumberValue {
+  font-size: 14px;
+  font-weight: 400;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  line-height: 1;
+}
+.percentParent {
+  width: auto;
+  align-self: flex-start;
+  display: inline-flex;
+  flex-direction: row;
+}
+.slotPercent {
+  font-size: 8px;
+  font-weight: 400;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  line-height: 1;
+}
+.featurevalueTextParent {
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.slotFeatureValueText {
+  font-size: 14px;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  line-height: 1;
+}

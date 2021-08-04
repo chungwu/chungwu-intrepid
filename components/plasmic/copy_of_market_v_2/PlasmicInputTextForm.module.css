@@ -1,0 +1,213 @@
+.root {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.parent {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: auto;
+  align-self: auto;
+}
+.parent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.parent > :global(.__wab_flex-container) > *,
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 4px;
+}
+.parent__width__380 {
+  width: 380px;
+}
+.parent__width__540 {
+  width: 540px;
+}
+.parent__width__720 {
+  width: 720px;
+}
+.parent__width__120 {
+  width: 120px;
+}
+.parent__width__144 {
+  width: 144px;
+}
+.parent__width__160 {
+  width: 160px;
+}
+.parent__width__180 {
+  width: 180px;
+}
+.parent__width__270 {
+  width: 270px;
+}
+.labelHeadlineParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  min-width: 0;
+}
+.labelHeadlineParent__label {
+  display: none;
+}
+.labelHeadlineParent__width__380 {
+  width: 380px;
+}
+.labelHeadlineParent__width__180 {
+  width: 180px;
+}
+.slotLabelHeadline {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1;
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+  text-transform: none;
+}
+.slotLabelHeadline__width__720 {
+  font-size: 16px;
+}
+.slotLabelHeadline__width__180 {
+  font-size: 14px;
+}
+.slotLabelHeadline__width__270 {
+  font-size: 12px;
+}
+.inputParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.inputParent__width__360 {
+  width: 360px;
+}
+.inputParent__width__380 {
+  width: 380px;
+}
+.inputParent__width__180 {
+  width: 100%;
+  min-width: 0;
+}
+.textbox {
+  display: block;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1;
+  color: #333333 /* plasmic-token: GNC_1sONjrft_YW */;
+  align-self: stretch;
+  position: relative;
+  text-transform: none;
+  width: 100%;
+  height: 32px;
+  border-bottom-width: 2px;
+  border-bottom-style: solid;
+  border-top-width: 1px;
+  border-top-style: none;
+  border-right-width: 1px;
+  border-right-style: none;
+  border-left-width: 1px;
+  border-left-style: none;
+  padding-bottom: 0px;
+  padding-left: 6px;
+  background: #f8f8f8;
+  min-width: 0;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border-color: #dddddd /* plasmic-token: zNGyZCiLDfJsG7h */;
+}
+.textbox__height__32 {
+  font-size: 14px;
+}
+.textbox__height__36 {
+  height: 36px;
+  flex-shrink: 0;
+}
+.textbox__height__40 {
+  height: 40px;
+  font-size: 18px;
+  flex-shrink: 0;
+}
+.textbox__height__48 {
+  height: 48px;
+  font-size: 24px;
+  flex-shrink: 0;
+}
+.textbox__type_secondary {
+  background: #ffffff;
+}
+.root:hover .textbox {
+  display: block;
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1;
+  color: #333333 /* plasmic-token: GNC_1sONjrft_YW */;
+  align-self: stretch;
+  position: relative;
+  text-transform: none;
+  width: 100%;
+  height: 32px;
+  padding-bottom: 0px;
+  padding-left: 6px;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+  background: #f8f8f8;
+  min-width: 0;
+  flex-shrink: 0;
+  border-top: 1px none #dddddd /* plasmic-token: slKXmrp1ClI2Nua */;
+  border-right: 1px none #dddddd /* plasmic-token: slKXmrp1ClI2Nua */;
+  border-bottom: 2px solid #333333 /* plasmic-token: fdIR3Y3Hu-kECgI */;
+  border-left: 1px none #dddddd /* plasmic-token: slKXmrp1ClI2Nua */;
+}
+.root:focus-within .textbox {
+  border-bottom-color: #6633ff /* plasmic-token: V2WOrk_AW1MCv5Q */;
+  outline: none;
+}
+.descriptionParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  width: 100%;
+  padding-top: 4px;
+  min-width: 0;
+}
+.descriptionParent__width__380 {
+  width: 380px;
+}
+.descriptionParent__width__180 {
+  width: 180px;
+}
+.slotDescription {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1;
+  color: #999999 /* plasmic-token: FdfLJd_ZiAuzuG5 */;
+}
+.slotDescription__width__180 {
+  font-size: 14px;
+}
+.slotDescription__width__270 {
+  font-size: 12px;
+}

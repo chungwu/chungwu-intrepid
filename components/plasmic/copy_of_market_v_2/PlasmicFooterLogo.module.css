@@ -1,0 +1,25 @@
+.footerlogoLink {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  position: relative;
+}
+.img {
+  object-fit: cover;
+  width: auto;
+  height: 32px;
+  flex-shrink: 0;
+}
+.img__size__16 {
+  height: 16px;
+  flex-shrink: 0;
+}
+.img__size__24 {
+  height: 24px;
+  flex-shrink: 0;
+}
+.img__size__32 {
+  height: 32px;
+  flex-shrink: 0;
+}

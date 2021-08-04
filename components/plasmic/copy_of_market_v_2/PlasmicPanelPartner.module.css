@@ -1,0 +1,70 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 270px;
+  height: 900px;
+  position: relative;
+  background: #ffffff;
+  padding: 0px 8px 8px;
+  border-right: 1px solid #f1f1f1 /* plasmic-token: akLbEnRWsJyyX4k */;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: space-between;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 4px;
+}
+.headerPanelMainPartner {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: space-evenly;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.partnerHeaderDisplay:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.partnerButtonHeader:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.partnerCommunityScores:global(.__wab_instance) {
+  position: relative;
+}
+.partnerListingScores:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.partnerMarket:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.partnerProfile:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.partnerAccount:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.panelPartnerFooter:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}

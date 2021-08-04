@@ -1,0 +1,34 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  position: relative;
+  padding: 0px;
+  border-width: 1px;
+  border-style: none;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  width: 24px;
+  height: 24px;
+  color: #999999 /* plasmic-token: ofqqjzLWVihRT6L */;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .svg {
+    color: #999999 /* plasmic-token: ofqqjzLWVihRT6L */;
+  }
+}
+.svg__light {
+  color: #e4e4e4 /* plasmic-token: oxE3t7KkCOJf2lU */;
+}
+.root:hover .svg {
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}
+.root__light:hover .svg__light {
+  color: #ffffff /* plasmic-token: 0sUSQIxUOVpXAlb */;
+}

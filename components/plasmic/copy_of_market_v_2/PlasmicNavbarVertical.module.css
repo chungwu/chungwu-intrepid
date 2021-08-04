@@ -1,0 +1,115 @@
+.sidePanel {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  position: relative;
+  background: #ffffff;
+}
+.sidePanel > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 6px);
+  height: calc(100% + 6px);
+}
+.sidePanel > :global(.__wab_flex-container) > *,
+.sidePanel > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 6px;
+}
+.sidePanel___switch {
+  height: 900px;
+  width: 270px;
+  padding: 8px;
+}
+.sidePanel___switch > :global(.__wab_flex-container) {
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.sidePanel___switch > :global(.__wab_flex-container) > *,
+.sidePanel___switch
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 0px;
+  margin-top: 8px;
+}
+.navCard {
+  display: flex;
+  flex-direction: row;
+  width: 360px;
+  height: 100%;
+  min-height: 0;
+  padding: 8px 16px;
+}
+.navCard > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.navCard > :global(.__wab_flex-container) > *,
+.navCard > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 8px;
+}
+.navCard___switch {
+  height: 36px;
+  width: 100%;
+  padding-right: 8px;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.sidePanel .navCard:hover {
+  background: #f8f8f8;
+}
+.iconParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.svg__yaTap {
+  position: relative;
+  object-fit: cover;
+  width: 1em;
+  height: 1em;
+  flex-shrink: 0;
+}
+.navLinkParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.navLinkParent___switch {
+  height: 36px;
+  width: 100%;
+  min-width: 0;
+}
+.navLink___switch:global(.__wab_instance) {
+  width: auto;
+  height: 36px;
+}
+.slotLinkText {
+  font-weight: 400;
+}
+.slotLinkText___switch {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.slotLinkText__user_partner {
+  line-height: 24px;
+  font-size: 16px;
+}

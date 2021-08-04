@@ -1,0 +1,163 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: auto;
+  position: relative;
+  padding: 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 0px;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .root {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.root__size__720 {
+  width: 620px;
+}
+.parentSectionInputEmail {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: auto;
+  left: auto;
+  align-self: center;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.parentSectionInputEmail > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 64px);
+  height: calc(100% + 64px);
+}
+.parentSectionInputEmail > :global(.__wab_flex-container) > *,
+.parentSectionInputEmail
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 64px;
+}
+.parentSectionInputEmail__size__720 {
+  width: 720px;
+}
+.freeBox__tu4Xh {
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+}
+.freeBox__tu4Xh > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.freeBox__tu4Xh > :global(.__wab_flex-container) > *,
+.freeBox__tu4Xh > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.freeBox__size__720__tu4XhWo6Mm {
+  width: 100%;
+  min-width: 0;
+}
+.freeBox__uLo8L {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.freeBox__uLo8L > :global(.__wab_flex-container) {
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.freeBox__uLo8L > :global(.__wab_flex-container) > *,
+.freeBox__uLo8L > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.slotChildren {
+  font-size: 32px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.4;
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+  text-align: center;
+}
+.slotChildren__size__720 {
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.4;
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+  text-align: center;
+}
+.freeBox___03Nb2 {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 100%;
+  height: auto;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .freeBox___03Nb2 {
+    left: auto;
+    top: auto;
+  }
+}
+.slotSlot {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.4;
+  color: #666666 /* plasmic-token: Bpqg84Cm8ulE9V1 */;
+  text-align: center;
+}
+.slotSlot__size__720 {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.4;
+  color: #666666 /* plasmic-token: Bpqg84Cm8ulE9V1 */;
+  text-align: center;
+}
+.inputEmailA:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  width: auto;
+  align-self: center;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .inputEmailA:global(.__wab_instance) {
+    left: auto;
+    top: auto;
+  }
+}

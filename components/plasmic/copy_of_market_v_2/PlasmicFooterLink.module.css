@@ -1,0 +1,34 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.slotSlot {
+  font-size: 12px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.4;
+  color: #999999 /* plasmic-token: ofqqjzLWVihRT6L */;
+}
+.slotSlot__color_light {
+  color: #e4e4e4 /* plasmic-token: oxE3t7KkCOJf2lU */;
+}
+.slotSlot__color_dark {
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}
+.slotSlot__color_brand {
+  color: #c2adff /* plasmic-token: 6NBalIHew0qUFT5 */;
+}
+.root:hover .slotSlot {
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}
+.root__color_light:hover .slotSlot__color_light {
+  color: #ffffff /* plasmic-token: 0sUSQIxUOVpXAlb */;
+}
+.root__color_dark:hover .slotSlot__color_dark {
+  color: #000000 /* plasmic-token: -nQtYxWkk4kVc0P */;
+}
+.root__color_brand:hover .slotSlot__color_brand {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}

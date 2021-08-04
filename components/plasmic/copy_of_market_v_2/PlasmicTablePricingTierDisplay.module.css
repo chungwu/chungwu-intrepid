@@ -1,0 +1,127 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  position: relative;
+  background: #ffffff;
+  min-width: 0;
+  padding: 0px 8px 8px;
+  border-bottom: 1px solid #dddddd /* plasmic-token: slKXmrp1ClI2Nua */;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 16px;
+}
+.headlineIconSubhead {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.headlineIconSubhead > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.headlineIconSubhead > :global(.__wab_flex-container) > *,
+.headlineIconSubhead
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 4px;
+}
+.headlineIconParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  top: auto;
+  left: auto;
+  width: 100%;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox___1FFq5 {
+  display: flex;
+  flex-direction: row;
+}
+.freeBox___2VZ0W {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+}
+.slotChildren {
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+}
+.accordionTriggerChevron:global(.__wab_instance) {
+  position: relative;
+}
+.svg__woccX {
+  object-fit: cover;
+  width: 32px;
+  height: 32px;
+}
+.svg__i0L0O {
+  object-fit: cover;
+  width: 32px;
+  height: 32px;
+}
+.freeBox__opE0 {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 0px;
+}
+.freeBox__pcD2W {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: column;
+}
+.slotSlot2 {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.4;
+  color: #666666 /* plasmic-token: Bpqg84Cm8ulE9V1 */;
+}
+.descriptionText {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  padding: 0px 8px 8px 0px;
+}
+.slotSlot {
+  line-height: 1.2;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}

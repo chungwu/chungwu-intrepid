@@ -1,0 +1,93 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.parent {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: 40px;
+  flex-shrink: 0;
+  padding: 16px;
+}
+.parent__state_selected {
+  border-bottom: 2px solid #000000 /* plasmic-token: -nQtYxWkk4kVc0P */;
+}
+.root__color_ghost:hover .parent__color_ghost {
+  background: #f8f8ff;
+}
+.textParent {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+}
+.textBg {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.slotLinkText {
+  font-size: 16px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1;
+  color: #999999 /* plasmic-token: ofqqjzLWVihRT6L */;
+  text-transform: none;
+}
+.slotLinkText__color_light {
+  color: #e4e4e4 /* plasmic-token: oxE3t7KkCOJf2lU */;
+}
+.slotLinkText__color_brand {
+  color: #c2adff /* plasmic-token: 6NBalIHew0qUFT5 */;
+}
+.slotLinkText__state_selected {
+  color: #000000 /* plasmic-token: -nQtYxWkk4kVc0P */;
+}
+.slotLinkText__state_disabled {
+  color: #e4e4e4 /* plasmic-token: oxE3t7KkCOJf2lU */;
+}
+.root:hover .slotLinkText {
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+}
+.root__color_light:hover .slotLinkText__color_light {
+  color: #ffffff /* plasmic-token: 0sUSQIxUOVpXAlb */;
+}
+.root__color_brand:hover .slotLinkText__color_brand {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.root__color_brand:hover .slotLinkText__color_brand > *,
+.root__color_brand:hover .slotLinkText__color_brand > .__wab_slot > *,
+.root__color_brand:hover
+  .slotLinkText__color_brand
+  > .__wab_slot
+  > .__wab_slot
+  > *,
+.root__color_brand:hover
+  .slotLinkText__color_brand
+  > .__wab_slot
+  > .__wab_slot
+  > .__wab_slot
+  > * {
+  text-decoration-line: none;
+}
+.root__state_selected:hover .slotLinkText__state_selected {
+  color: #000000 /* plasmic-token: -nQtYxWkk4kVc0P */;
+}
+.root__state_disabled:hover .slotLinkText__state_disabled {
+  color: #e4e4e4 /* plasmic-token: oxE3t7KkCOJf2lU */;
+}

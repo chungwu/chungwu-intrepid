@@ -1,0 +1,92 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: auto;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.textbox {
+  width: 100%;
+  border-top-style: none;
+  border-top-width: 1px;
+  border-right-style: none;
+  border-right-width: 1px;
+  border-left-style: none;
+  border-left-width: 1px;
+  height: 40px;
+  background: #f8f8f8;
+  min-width: 0;
+  flex-shrink: 0;
+  border-bottom: 2px solid #ebebeb /* plasmic-token: _urTuNmI_eilAL2 */;
+}
+.root .textbox:hover {
+  border-bottom-color: #cccccc /* plasmic-token: dyIWvHS8X2xiIHu */;
+}
+.root .textbox:focus {
+  border-bottom-color: #6633ff /* plasmic-token: VvtJBUIAIMkNk6c */;
+  outline: none;
+}
+.freeBox {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.freeBox > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.freeBox > :global(.__wab_flex-container) > *,
+.freeBox > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+.chipBadgeDisplay__rnYqN:global(.__wab_instance) {
+  position: relative;
+}
+.freeBox__boaL {
+  text-transform: lowercase;
+}
+.svg__rWx4 {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: 0sUSQIxUOVpXAlb */;
+}
+.svg__vBsuP {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: 0sUSQIxUOVpXAlb */;
+}
+.svg__fNoE {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #999999 /* plasmic-token: ofqqjzLWVihRT6L */;
+}

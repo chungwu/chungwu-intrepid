@@ -1,0 +1,95 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 360px;
+  height: auto;
+  position: relative;
+}
+.freeBox__iLc5E {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  padding-left: 0px;
+}
+.freeBox__iLc5E > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+}
+.freeBox__iLc5E > :global(.__wab_flex-container) > *,
+.freeBox__iLc5E > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 0px;
+}
+.freeBox__hsdrO {
+  position: relative;
+  left: auto;
+  top: auto;
+  font-size: 18px;
+  text-align: left;
+  font-weight: 700;
+  width: 80px;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  flex-shrink: 0;
+}
+.currencyTotalValueParent {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  padding-left: 4px;
+}
+.currencyTotalValueParent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.currencyTotalValueParent > :global(.__wab_flex-container) > *,
+.currencyTotalValueParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 4px;
+}
+.currencyParent {
+  display: inline-flex;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.slotCurrency {
+  font-size: 18px;
+  font-weight: 700;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  text-align: left;
+}
+.totalValueNumberParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+}
+.totalValueNumber {
+  font-size: 18px;
+  text-align: left;
+  width: auto;
+  height: auto;
+  font-weight: 700;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  display: inline-block;
+}

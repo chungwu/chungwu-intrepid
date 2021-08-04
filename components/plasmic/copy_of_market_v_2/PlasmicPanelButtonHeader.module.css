@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: relative;
+  min-width: 0;
+  padding: 8px 0px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 8px;
+}
+.partnerNewListing:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}
+.partnerNewListing__user_member:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.partnerNewListing__user_partner:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.partnerPowerUp:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.partnerPowerUp__user_member:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.partnerPowerUp__user_partner:global(.__wab_instance) {
+  flex-shrink: 0;
+}

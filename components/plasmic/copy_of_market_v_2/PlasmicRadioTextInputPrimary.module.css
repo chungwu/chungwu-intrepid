@@ -1,0 +1,40 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+}
+.parent {
+  display: inline-flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+}
+.parent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.parent > :global(.__wab_flex-container) > *,
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 8px;
+}
+.elementRadioPrimary:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.slotItemText {
+  font-size: 14px;
+  line-height: 1;
+}
+.slotItemText__size__12Px {
+  font-size: 12px;
+  line-height: 1;
+}
+.slotItemText__size__16Px {
+  font-size: 16px;
+}

@@ -1,0 +1,377 @@
+.formLogin {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  height: auto;
+  position: relative;
+  padding: 0px;
+}
+.formLogin > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.formLogin > :global(.__wab_flex-container) > *,
+.formLogin > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 16px;
+}
+.formLogin__size__540 {
+  width: 540px;
+}
+.inputLabelParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.inputLabelParent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.inputLabelParent > :global(.__wab_flex-container) > *,
+.inputLabelParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 4px;
+}
+.emailLabel {
+  position: relative;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+  margin-bottom: 0px;
+  width: 100%;
+  height: auto;
+  margin-top: calc(0px + 4px) !important;
+  margin-right: 0px;
+  margin-left: 0px;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .emailLabel {
+    left: auto;
+    top: auto;
+    margin-top: calc(0px + 4px) !important;
+  }
+}
+.email {
+  width: 100%;
+  height: 48px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background: #ffffff;
+  min-width: 0;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 2px solid #dddddd /* plasmic-token: zNGyZCiLDfJsG7h */;
+}
+.formLogin .email:hover {
+  border-color: #333333 /* plasmic-token: fdIR3Y3Hu-kECgI */;
+}
+.formLogin .email:focus {
+  outline: none;
+  border-color: #6633ff /* plasmic-token: V2WOrk_AW1MCv5Q */;
+}
+.inputPasswordLabelParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.inputPasswordLabelParent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.inputPasswordLabelParent > :global(.__wab_flex-container) > *,
+.inputPasswordLabelParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 4px;
+}
+.passwordLabel {
+  position: relative;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+  margin-bottom: 0px;
+  width: 100%;
+  margin-top: calc(0px + 4px) !important;
+  margin-right: 0px;
+  margin-left: 0px;
+  height: auto;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .passwordLabel {
+    left: auto;
+    top: auto;
+    margin-top: calc(0px + 4px) !important;
+  }
+}
+.password {
+  width: 100%;
+  height: 48px;
+  padding-left: 8px;
+  padding-right: 8px;
+  background: #ffffff;
+  min-width: 0;
+  flex-shrink: 0;
+  border-radius: 2px;
+  border: 2px solid #dddddd /* plasmic-token: zNGyZCiLDfJsG7h */;
+}
+.formLogin .password:hover {
+  border-color: #333333 /* plasmic-token: fdIR3Y3Hu-kECgI */;
+}
+.formLogin .password:focus {
+  outline: none;
+  border-color: #6633ff /* plasmic-token: V2WOrk_AW1MCv5Q */;
+}
+.freeBox__upOI {
+  display: block;
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.4;
+  color: #666666 /* plasmic-token: Bpqg84Cm8ulE9V1 */;
+  align-self: stretch;
+  position: relative;
+  left: auto;
+  top: auto;
+  margin-top: calc(0px + 4px) !important;
+  width: 100%;
+  height: auto;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  min-width: 0;
+}
+.buttonContinueParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.buttonContinueParent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.buttonContinueParent > :global(.__wab_flex-container) > *,
+.buttonContinueParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 8px;
+}
+.loginContinueButton:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.svg__r2DPj {
+  width: 100%;
+  height: 100%;
+  color: #ffffff /* plasmic-token: TRM0EIRKSyuBRFC */;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+}
+.recoveryLinkParent {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  align-self: center;
+}
+.recoveryLinkParent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.recoveryLinkParent > :global(.__wab_flex-container) > *,
+.recoveryLinkParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 8px;
+}
+.freeBox__fiZVy {
+  position: relative;
+  left: auto;
+  top: auto;
+  font-size: 12px;
+}
+.resetPassword {
+  position: relative;
+  left: auto;
+  top: auto;
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+  font-size: 12px;
+}
+.freeBox__fg6Fq {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.freeBox__fg6Fq > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.freeBox__fg6Fq > :global(.__wab_flex-container) > *,
+.freeBox__fg6Fq > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 12px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox__fg6Fq {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.freeBox__aIxiC {
+  display: block;
+  position: relative;
+  height: 1px;
+  width: 100%;
+  background: #ebebeb;
+  min-width: 0;
+}
+.freeBox___5KaZp {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: auto;
+  height: auto;
+  color: #666666 /* plasmic-token: emwzYw5VuUPA7E9 */;
+  display: inline-block;
+}
+.freeBox__wNyIv {
+  display: block;
+  position: relative;
+  height: 1px;
+  width: 100%;
+  background: #ebebeb;
+  min-width: 0;
+}
+.freeBox__grOxW {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  padding: 8px 0px;
+}
+.freeBox__grOxW > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.freeBox__grOxW > :global(.__wab_flex-container) > *,
+.freeBox__grOxW > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 16px;
+}
+.loginFacebookConnect:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 100%;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.loginGoogleConnect:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 100%;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.freeBox__toxY {
+  display: block;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: 2px;
+  left: auto;
+  top: auto;
+  background: #f1f1f1;
+  min-width: 0;
+  flex-shrink: 0;
+}
+.freeBox__toxY > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 12px);
+  width: calc(100% + 12px);
+}
+.freeBox__toxY > :global(.__wab_flex-container) > *,
+.freeBox__toxY > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 12px;
+}
+.signupSubhead {
+  display: block;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1.4;
+  color: #666666 /* plasmic-token: emwzYw5VuUPA7E9 */;
+  align-self: center;
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 100%;
+  height: auto;
+  text-align: center;
+  min-width: 0;
+}
+.buttonLinkPrimary:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .buttonLinkPrimary:global(.__wab_instance) {
+    flex-shrink: 0;
+  }
+}
+.freeBox__bcifb {
+  font-size: 16px;
+  font-weight: 600;
+}

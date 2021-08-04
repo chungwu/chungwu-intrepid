@@ -1,0 +1,40 @@
+.root {
+  display: inline-flex;
+  width: auto;
+  height: auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  padding: 0px;
+}
+.freeBox__gPt9P {
+  position: relative;
+  left: auto;
+  top: auto;
+  height: auto;
+  width: auto;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  margin: 0px;
+}
+.freeBox__pbIry {
+  display: inline-flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  height: auto;
+  width: auto;
+}
+.slotChildren {
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1;
+  color: #333333 /* plasmic-token: GNC_1sONjrft_YW */;
+}

@@ -1,0 +1,78 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 16px;
+}
+.searchbarFilter:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}
+.badgeDisplayParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  left: auto;
+  top: auto;
+  width: 360px;
+  height: auto;
+  padding-bottom: 4px;
+  padding-top: 4px;
+}
+.badgeDisplayParent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: unset;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  align-content: center;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+  margin-top: calc(0px - 8px);
+  height: calc(100% + 8px);
+}
+.badgeDisplayParent > :global(.__wab_flex-container) > *,
+.badgeDisplayParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 8px;
+  margin-top: 8px;
+}
+.chipBadgeDisplay:global(.__wab_instance) {
+  position: relative;
+}
+.svg___0EY46 {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: 0sUSQIxUOVpXAlb */;
+}
+.svg__fGo8W {
+  position: relative;
+  object-fit: cover;
+  width: 14px;
+  height: 14px;
+  color: #999999 /* plasmic-token: ofqqjzLWVihRT6L */;
+}
+.svg__q4Qxn {
+  position: relative;
+  object-fit: cover;
+  width: 16px;
+  height: 16px;
+  color: #ffffff /* plasmic-token: 0sUSQIxUOVpXAlb */;
+}

@@ -1,0 +1,162 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  width: 720px;
+  height: auto;
+  position: relative;
+  background: #ffffff;
+  padding: 16px 8px;
+  border-bottom: 1px solid #dddddd /* plasmic-token: zNGyZCiLDfJsG7h */;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  align-content: unset;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 16px;
+}
+.freeBox__tsUjr {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  height: 32px;
+  width: 120px;
+  align-content: unset;
+  flex-shrink: 0;
+}
+.tagMemberD:global(.__wab_instance) {
+  position: relative;
+}
+.freeBox__jHf2J {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  top: auto;
+  left: auto;
+  width: 64px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.freeBox__jHf2J > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: unset;
+  margin-left: calc(0px - 6px);
+  width: calc(100% + 6px);
+}
+.freeBox__jHf2J > :global(.__wab_flex-container) > *,
+.freeBox__jHf2J > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 6px;
+}
+.freeBox__kpUs {
+  font-size: 16px;
+  height: auto;
+  width: auto;
+  display: inline-block;
+}
+.textLinkUnderlinePrimary:global(.__wab_instance) {
+  position: relative;
+}
+.freeBox__ikAju {
+  font-weight: 500;
+  text-transform: uppercase;
+}
+.freeBox__mGngb {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  width: 64px;
+  height: 32px;
+  align-content: unset;
+  flex-shrink: 0;
+}
+.freeBox__jwP55 {
+  font-size: 16px;
+  height: auto;
+  width: auto;
+  display: inline-block;
+}
+.freeBox__ub9Jl {
+  font-size: 16px;
+  height: auto;
+  width: auto;
+  display: inline-block;
+}
+.freeBox__vl1DF {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  width: 96px;
+  height: 32px;
+  align-content: unset;
+  flex-shrink: 0;
+}
+.freeBox__bOhL {
+  font-size: 16px;
+  height: auto;
+  width: auto;
+  display: inline-block;
+}
+.freeBox__aKbLg {
+  font-size: 16px;
+  height: auto;
+  width: auto;
+  display: inline-block;
+}
+.freeBox__jbIxj {
+  font-size: 16px;
+  height: auto;
+  width: auto;
+  display: inline-block;
+}
+.freeBox__v5Y2D {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  width: 64px;
+  height: 32px;
+  align-content: unset;
+  flex-shrink: 0;
+}
+.switchPrimary:global(.__wab_instance) {
+  position: relative;
+  flex-shrink: 0;
+}
+.freeBox___7KIto {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  top: auto;
+  left: auto;
+  width: 64px;
+  height: 32px;
+  align-content: unset;
+  flex-shrink: 0;
+}
+.buttonCircleDelete:global(.__wab_instance) {
+  position: relative;
+}

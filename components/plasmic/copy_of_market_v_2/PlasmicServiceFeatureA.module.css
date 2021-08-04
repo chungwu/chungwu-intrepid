@@ -1,0 +1,48 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 720px;
+  height: auto;
+  position: relative;
+  background: rgba(68, 192, 255, 0.2);
+  padding: 10px;
+  border-bottom: 1px solid #e4e4e4 /* plasmic-token: oxE3t7KkCOJf2lU */;
+}
+.freeBox__dtyuB {
+  display: inline-block;
+  font-size: 24px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #666666 /* plasmic-token: emwzYw5VuUPA7E9 */;
+  align-self: stretch;
+  left: auto;
+  top: auto;
+  width: auto;
+  height: auto;
+}
+.freeBox__cnmlF {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  background: rgba(68, 192, 255, 0.2);
+  padding: 2px;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  left: auto;
+  top: auto;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}

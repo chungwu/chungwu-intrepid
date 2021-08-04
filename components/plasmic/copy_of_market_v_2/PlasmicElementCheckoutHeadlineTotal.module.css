@@ -1,0 +1,106 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 360px;
+  height: auto;
+  position: relative;
+}
+.freeBox__xhsjT {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  padding-left: 0px;
+  min-width: 0;
+}
+.freeBox__xhsjT > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 0px);
+  width: calc(100% + 0px);
+}
+.freeBox__xhsjT > :global(.__wab_flex-container) > *,
+.freeBox__xhsjT > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 0px;
+}
+.freeBox__hGRaK {
+  display: flex;
+  position: relative;
+  width: 100%;
+  min-width: 0;
+}
+.slotChildren {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  text-align: left;
+}
+.totalCurrencyNumberValue {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  padding-left: 4px;
+}
+.totalCurrencyNumberValue > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 4px);
+  width: calc(100% + 4px);
+}
+.totalCurrencyNumberValue > :global(.__wab_flex-container) > *,
+.totalCurrencyNumberValue
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 4px;
+}
+.currencyParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+}
+.currencyText {
+  font-size: 16px;
+  text-align: left;
+  width: 100%;
+  height: auto;
+  font-weight: 700;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  min-width: 0;
+}
+.subtotalParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+}
+.totalValueNumberParent {
+  display: inline-flex;
+  position: relative;
+  width: auto;
+  height: auto;
+}
+.slotTotalValueNumber {
+  font-size: 16px;
+  font-weight: 700;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  text-align: left;
+}

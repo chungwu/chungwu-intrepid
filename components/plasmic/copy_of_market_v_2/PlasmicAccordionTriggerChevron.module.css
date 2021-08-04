@@ -1,0 +1,33 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  position: relative;
+  padding: 0px;
+  border-width: 1px;
+  border-style: none;
+}
+.svgParent {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: auto;
+  height: auto;
+}
+.slotSvg__state_disabled {
+  color: #ebebeb /* plasmic-token: _urTuNmI_eilAL2 */;
+}
+.svg___8NNiF {
+  object-fit: cover;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+.svg__uP4Ht {
+  object-fit: cover;
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}

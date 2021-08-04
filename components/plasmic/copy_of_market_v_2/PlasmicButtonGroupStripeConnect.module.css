@@ -1,0 +1,80 @@
+.root {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  position: relative;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 4px);
+  height: calc(100% + 4px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 4px;
+}
+.buttonStripeConnect:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.freeBox__ceCk {
+  font-weight: 600;
+}
+.noteLinkParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 360px;
+  height: auto;
+  left: auto;
+  top: auto;
+  padding: 2px 0px 2px 4px;
+}
+.noteLinkParent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.noteLinkParent > :global(.__wab_flex-container) > *,
+.noteLinkParent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 24px;
+}
+.descriptionParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+.freeBox__mVds0 {
+  display: inline-block;
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  letter-spacing: normal;
+  line-height: 1;
+  color: #666666 /* plasmic-token: Bpqg84Cm8ulE9V1 */;
+  align-self: stretch;
+  height: 100%;
+  width: auto;
+  white-space: pre-wrap;
+  min-height: 0;
+}
+.chipStripeLink:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}

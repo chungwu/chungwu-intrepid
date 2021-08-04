@@ -1,0 +1,167 @@
+.parent {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  position: relative;
+  min-width: 0;
+  padding: 32px 0px 64px;
+}
+.parent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.parent > :global(.__wab_flex-container) > *,
+.parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 0px;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .parent {
+    padding-bottom: 96px;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .parent {
+    width: 100%;
+    min-width: 0;
+    padding: 16px 16px 96px;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .parent > :global(.__wab_flex-container) {
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 24px);
+    height: calc(100% + 24px);
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .parent > :global(.__wab_flex-container) > *,
+  .parent > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+    margin-left: 0px;
+    margin-top: 24px;
+  }
+}
+.loginHeadlineParent {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: auto;
+  left: auto;
+  width: 360px;
+  height: auto;
+}
+.loginHeadlineParent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.loginHeadlineParent > :global(.__wab_flex-container) > *,
+.loginHeadlineParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 16px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .loginHeadlineParent {
+    margin-top: calc(40px + 24px) !important;
+    margin-bottom: 40px;
+  }
+}
+.loginHeadlineText {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+  padding: 0px;
+}
+.loginHeadlineText > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.loginHeadlineText > :global(.__wab_flex-container) > *,
+.loginHeadlineText > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 16px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .loginHeadlineText {
+    width: 100%;
+    min-width: 0;
+  }
+}
+.svgLinkDiv {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  align-self: flex-start;
+  margin-left: -10px;
+}
+.svg {
+  object-fit: cover;
+  width: 48px;
+  height: 48px;
+  color: #333333 /* plasmic-token: eab2NGdET7I8pxu */;
+  flex-shrink: 0;
+}
+.parent .svg:hover {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.freeBox {
+  display: inline-block;
+  font-size: 40px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+  align-self: stretch;
+  position: relative;
+  left: auto;
+  top: auto;
+  width: auto;
+  height: auto;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .freeBox {
+    width: 100%;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox {
+    line-height: 1.4;
+  }
+}
+.cardLogIn:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+@media (min-width: 0px) and (max-width: 1440px) {
+  .cardLogIn:global(.__wab_instance) {
+    left: auto;
+    top: auto;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .cardLogIn:global(.__wab_instance) {
+    width: 100%;
+    left: auto;
+    top: auto;
+    min-width: 0;
+  }
+}

@@ -1,0 +1,28 @@
+.logoLink {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: auto;
+  height: auto;
+  position: relative;
+  padding: 0px;
+}
+.img__hGcSp {
+  position: relative;
+  object-fit: cover;
+  width: auto;
+  height: 32px;
+  left: auto;
+  top: auto;
+  display: inline-inline-block;
+  flex-shrink: 0;
+}
+.img {
+  position: relative;
+  object-fit: cover;
+}
+.img__color {
+  height: 32px;
+  flex-shrink: 0;
+}

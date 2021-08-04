@@ -1,0 +1,445 @@
+.root {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background: #ffffff;
+  min-width: 0;
+  min-height: 0;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .root {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .root > :global(.__wab_flex-container) {
+    justify-content: flex-start;
+    align-items: center;
+    align-content: unset;
+    flex-direction: column;
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .root > :global(.__wab_flex-container) > *,
+  .root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+.navbarInternal:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .navbarInternal:global(.__wab_instance) {
+    left: auto;
+    top: auto;
+  }
+}
+.navbarPartnerEdit:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .navbarPartnerEdit:global(.__wab_instance) {
+    left: auto;
+    top: auto;
+    flex-shrink: 0;
+  }
+}
+.sectionPartnerManageListingsHeader {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  padding: 16px 180px 32px 110px;
+}
+.sectionPartnerManageListingsHeader > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.sectionPartnerManageListingsHeader > :global(.__wab_flex-container) > *,
+.sectionPartnerManageListingsHeader
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 32px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionPartnerManageListingsHeader {
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    width: 100%;
+    height: auto;
+    left: 0px;
+    top: 0px;
+    min-width: 0;
+    padding: 16px 16px 32px;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionPartnerManageListingsHeader > :global(.__wab_flex-container) {
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-left: calc(0px - 0px);
+    width: calc(100% + 0px);
+    margin-top: calc(0px - 0px);
+    height: calc(100% + 0px);
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionPartnerManageListingsHeader > :global(.__wab_flex-container) > *,
+  .sectionPartnerManageListingsHeader
+    > :global(.__wab_flex-container)
+    > :global(.__wab_slot)
+    > * {
+    margin-left: 0px;
+    margin-top: 0px;
+  }
+}
+.cardHeaderTitleDisplay:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+}
+.freeBox__bCsV {
+  font-weight: 700;
+}
+.sectionPartnerManageListings {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  top: auto;
+  left: auto;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+  padding: 16px 180px 96px 110px;
+}
+.sectionPartnerManageListings > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.sectionPartnerManageListings > :global(.__wab_flex-container) > *,
+.sectionPartnerManageListings
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 32px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionPartnerManageListings {
+    padding-left: 16px;
+    padding-right: 16px;
+    left: auto;
+    top: auto;
+    height: 100%;
+    min-height: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .sectionPartnerManageListings > :global(.__wab_flex-container) {
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: unset;
+  }
+}
+.freeBox__x9Rq1 {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+.freeBox__x9Rq1 > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.freeBox__x9Rq1 > :global(.__wab_flex-container) > *,
+.freeBox__x9Rq1 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox__x9Rq1 {
+    width: 100%;
+    height: auto;
+    min-width: 0;
+  }
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .freeBox__x9Rq1 > :global(.__wab_flex-container) {
+    justify-content: flex-start;
+    align-items: flex-start;
+    align-content: unset;
+  }
+}
+.freeBox__xfROm {
+  height: auto;
+  max-width: 328px;
+}
+.listingManagementBlockParent {
+  display: inline-flex;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+}
+.listingManagementBlockParent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.listingManagementBlockParent > :global(.__wab_flex-container) > *,
+.listingManagementBlockParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 24px;
+}
+.listingTotalParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.listingTotalParent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.listingTotalParent > :global(.__wab_flex-container) > *,
+.listingTotalParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 8px;
+}
+.listingNumberParent {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  top: auto;
+  left: auto;
+  width: auto;
+  height: auto;
+}
+.listingNumber {
+  font-size: 16px;
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+}
+.freeBox__osNq6 {
+  position: relative;
+  left: auto;
+  top: auto;
+  font-size: 16px;
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+}
+.freeBox___4GEvD {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  padding: 0px;
+  border: 1px none #dddddd /* plasmic-token: slKXmrp1ClI2Nua */;
+}
+.freeBox___4GEvD > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  margin-top: calc(0px - 16px);
+  height: calc(100% + 16px);
+}
+.freeBox___4GEvD > :global(.__wab_flex-container) > *,
+.freeBox___4GEvD > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 16px;
+}
+.listingSearchFilterParent {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .listingSearchFilterParent {
+    display: none;
+  }
+}
+.freeBox__enjQy {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.freeBox__enjQy > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 48px);
+  width: calc(100% + 48px);
+}
+.freeBox__enjQy > :global(.__wab_flex-container) > *,
+.freeBox__enjQy > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 48px;
+}
+.searchbarPrimary:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.listingSearchFilterDropdownParent {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.listingSearchFilterDropdownParent > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.listingSearchFilterDropdownParent > :global(.__wab_flex-container) > *,
+.listingSearchFilterDropdownParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 24px;
+}
+.selectDropdownPrimary___1Ig0E:global(.__wab_instance) {
+  position: relative;
+}
+.option__sDVr:global(.__wab_instance) {
+  position: relative;
+}
+.option__d29Vs:global(.__wab_instance) {
+  position: relative;
+}
+.selectDropdownPrimary__hk4Wu:global(.__wab_instance) {
+  position: relative;
+}
+.option__ikxlS:global(.__wab_instance) {
+  position: relative;
+}
+.option__yjU53:global(.__wab_instance) {
+  position: relative;
+}
+.buttonPrimary:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.svg {
+  width: 20px;
+  height: 20px;
+  color: #ffffff /* plasmic-token: TRM0EIRKSyuBRFC */;
+  object-fit: cover;
+}
+.listingManagementTableColumnParent {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  overflow: visible;
+  background: #f8f8f8;
+  border: 1px solid #dddddd /* plasmic-token: slKXmrp1ClI2Nua */;
+}
+.listingManagementTableColumnParent > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 2px);
+  height: calc(100% + 2px);
+}
+.listingManagementTableColumnParent > :global(.__wab_flex-container) > *,
+.listingManagementTableColumnParent
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 2px;
+}
+.tableListingAdminHeader:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.tableListingAdminRecord:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.footerB:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  right: auto;
+  bottom: auto;
+}
+@media (min-width: 0px) and (max-width: 414px) {
+  .footerB:global(.__wab_instance) {
+    left: auto;
+    top: auto;
+    bottom: auto;
+    right: auto;
+  }
+}

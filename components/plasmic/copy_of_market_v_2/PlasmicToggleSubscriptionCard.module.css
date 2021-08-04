@@ -1,0 +1,90 @@
+.root {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 360px;
+  height: auto;
+  position: relative;
+}
+.freeBox__gq2Qp {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  padding-left: 0px;
+  min-width: 0;
+}
+.freeBox__gq2Qp > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 20px);
+  width: calc(100% + 20px);
+}
+.freeBox__gq2Qp > :global(.__wab_flex-container) > *,
+.freeBox__gq2Qp > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 20px;
+}
+.freeBox__aKpLh {
+  position: relative;
+  left: auto;
+  top: auto;
+  width: 100%;
+  padding-left: 2px;
+  display: flex;
+  flex-direction: row;
+  min-width: 0;
+}
+.freeBox__vvKnf {
+  position: relative;
+}
+.freeBox__xhDd7 {
+  display: inline-flex;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.freeBox__xhDd7 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.freeBox__xhDd7 > :global(.__wab_flex-container) > *,
+.freeBox__xhDd7 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 8px;
+}
+.switchPrimary:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}
+.switchPrimary__active_yearly:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.switchPrimary__active_autorenew:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.switchPrimary__active_placement:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.switchPrimary__inactive_yearly:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.switchPrimary__inactive_autorenew:global(.__wab_instance) {
+  flex-shrink: 0;
+}
+.switchPrimary__inactive_placement:global(.__wab_instance) {
+  flex-shrink: 0;
+}

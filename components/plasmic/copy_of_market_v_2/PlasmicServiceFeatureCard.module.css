@@ -1,0 +1,85 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  width: 150px;
+  height: 150px;
+  position: relative;
+  padding: 10px;
+}
+.root > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: calc(0px - 20px);
+  height: calc(100% + 20px);
+}
+.root > :global(.__wab_flex-container) > *,
+.root > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 20px;
+}
+.root__size_small {
+  width: 80px;
+  height: 80px;
+}
+.freeBox__hMugR {
+  left: auto;
+  top: auto;
+  width: auto;
+  height: auto;
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+}
+.freeBox__ah7Mv {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: column;
+}
+.slotSlot {
+  font-size: 36px;
+  font-family: "Inter", sans-serif;
+  font-weight: 300;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #666666 /* plasmic-token: emwzYw5VuUPA7E9 */;
+  text-align: center;
+}
+.slotSlot__size_small {
+  font-size: 18px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  letter-spacing: normal;
+  line-height: 1.2;
+  color: #666666 /* plasmic-token: emwzYw5VuUPA7E9 */;
+}
+.freeBox__jeDl1 {
+  left: auto;
+  top: auto;
+  width: auto;
+  height: auto;
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+}
+.freeBox__zeE5O {
+  display: flex;
+  align-self: stretch;
+  position: relative;
+  flex-direction: column;
+}
+.slotChildren {
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  line-height: 1.4;
+  color: #666666 /* plasmic-token: emwzYw5VuUPA7E9 */;
+  text-align: center;
+}
+.slotChildren__size_small {
+  font-size: 10px;
+  font-family: "Inter", sans-serif;
+  font-weight: 400;
+  line-height: 1.4;
+  color: #333333 /* plasmic-token: GNC_1sONjrft_YW */;
+}

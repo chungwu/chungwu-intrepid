@@ -1,0 +1,69 @@
+.root {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: flex-start;
+  width: 100%;
+  height: 36px;
+  min-width: 0;
+}
+.newListing {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 36px;
+  background: #6633ff;
+  min-width: 0;
+  flex-shrink: 0;
+  border: 2px solid #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.root:hover .newListing {
+  background: #ffffff;
+  border-width: 2px;
+  border-style: solid;
+}
+.sideBarCardLink3 {
+  display: flex;
+  flex-direction: row;
+  width: 120px;
+  height: auto;
+  padding: 2px 0px;
+}
+.sideBarCardLink3 > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  margin-left: calc(0px - 8px);
+  width: calc(100% + 8px);
+}
+.sideBarCardLink3 > :global(.__wab_flex-container) > *,
+.sideBarCardLink3 > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 8px;
+}
+.svg {
+  position: relative;
+  object-fit: cover;
+  color: #ffffff /* plasmic-token: 0sUSQIxUOVpXAlb */;
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+.root:hover .svg {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}
+.freeBox {
+  position: relative;
+  line-height: 1;
+  width: auto;
+  font-size: 14px;
+  text-align: left;
+  color: #ffffff /* plasmic-token: 0sUSQIxUOVpXAlb */;
+  font-weight: 500;
+  display: inline-block;
+}
+.root:hover .freeBox {
+  color: #6633ff /* plasmic-token: KRHsT0OlwmwHZhf */;
+}

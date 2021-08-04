@@ -1,0 +1,1197 @@
+.root {
+  display: flex;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  flex-direction: column;
+  background: #ffffff;
+  min-width: 0;
+  min-height: 0;
+}
+.navbarInternal:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  right: auto;
+}
+.navbarPartnerEdit:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  flex-shrink: 0;
+}
+.sectionTeamEditProfile {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  padding: 16px 180px 32px;
+}
+.sectionTeamEditProfile > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.sectionTeamEditProfile > :global(.__wab_flex-container) > *,
+.sectionTeamEditProfile
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 32px;
+}
+.cardHeaderTitleDisplay__fTnkb:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.freeBox__dmp9Y {
+  font-weight: 700;
+}
+.freeBox__tQav1 {
+  height: auto;
+}
+.formTeamEditProfile {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 720px;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.formTeamEditProfile > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.formTeamEditProfile > :global(.__wab_flex-container) > *,
+.formTeamEditProfile
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 32px;
+}
+.cardTeamLogo {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  padding: 0px;
+}
+.cardTeamLogo > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamLogo > :global(.__wab_flex-container) > *,
+.cardTeamLogo > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary__wiGc1:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.freeBox__apELs {
+  height: auto;
+  max-width: 328px;
+}
+.teamUploadLogoButtonGroup {
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+  min-width: 0;
+}
+.teamUploadLogoButtonGroup > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: unset;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+}
+.teamUploadLogoButtonGroup > :global(.__wab_flex-container) > *,
+.teamUploadLogoButtonGroup
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 24px;
+}
+.userAvatarButton:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.img___9Awer {
+  position: relative;
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  min-width: 0;
+  min-height: 0;
+  border-radius: 100%;
+  border: 2px none #f1f1f1 /* plasmic-token: akLbEnRWsJyyX4k */;
+}
+.teamEditlogoGroup {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.teamEditlogoGroup > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-left: calc(0px - 16px);
+  width: calc(100% + 16px);
+}
+.teamEditlogoGroup > :global(.__wab_flex-container) > *,
+.teamEditlogoGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 16px;
+}
+.buttonPrimary__uXoLh:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.svg__xjSE {
+  width: 100%;
+  height: 100%;
+  color: #ffffff /* plasmic-token: TRM0EIRKSyuBRFC */;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+}
+.buttonPrimary__am3Zv:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  flex-shrink: 0;
+}
+.svg__nSaHh {
+  width: 100%;
+  height: 100%;
+  color: #ffffff /* plasmic-token: TRM0EIRKSyuBRFC */;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+}
+.cardTeamDisplayname {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  padding: 0px;
+}
+.cardTeamDisplayname > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamDisplayname > :global(.__wab_flex-container) > *,
+.cardTeamDisplayname
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary__pYf8X:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.freeBox___3J1W7 {
+  height: auto;
+  max-width: 328px;
+}
+.inputTextPrefixSuffix__iHfpV:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+}
+.cardTeamUrl {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  padding: 0px;
+}
+.cardTeamUrl > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamUrl > :global(.__wab_flex-container) > *,
+.cardTeamUrl > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary___74Wih:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.freeBox__wiHvd {
+  height: auto;
+  max-width: 328px;
+}
+.inputTextPrefixSuffix__gs9Qs:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+}
+.cardTeamTagline {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.cardTeamTagline > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamTagline > :global(.__wab_flex-container) > *,
+.cardTeamTagline > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary__tm4V:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.freeBox___2Fy5Z {
+  height: auto;
+  max-width: 328px;
+}
+.inputTextField:global(.__wab_instance) {
+  position: relative;
+}
+.cardTeamDescription {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.cardTeamDescription > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamDescription > :global(.__wab_flex-container) > *,
+.cardTeamDescription
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary__rP5H:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.freeBox__sHc9F {
+  height: auto;
+  max-width: 328px;
+}
+.inputTextAreaPrimary:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.cardTeamVideoIntroUrl {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  padding: 0px;
+}
+.cardTeamVideoIntroUrl > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamVideoIntroUrl > :global(.__wab_flex-container) > *,
+.cardTeamVideoIntroUrl
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary__jAbmE:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  align-self: flex-start;
+}
+.freeBox__tvlHh {
+  height: auto;
+  max-width: 328px;
+}
+.inputTextPrefixSuffix__t0Nue:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+}
+.teamSubmitProfile:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+.svg___6Omgy {
+  width: 100%;
+  height: 100%;
+  color: #ffffff /* plasmic-token: TRM0EIRKSyuBRFC */;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+}
+.freeBox__m9X4 {
+  font-weight: 600;
+}
+.sectionTeamEditProfileDetails {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  padding: 16px 180px 32px;
+}
+.sectionTeamEditProfileDetails > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.sectionTeamEditProfileDetails > :global(.__wab_flex-container) > *,
+.sectionTeamEditProfileDetails
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 32px;
+}
+.cardHeaderTitleDisplay__rOmZ:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.freeBox__iusty {
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+  font-weight: 700;
+}
+.formTeamEditDetails {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.formTeamEditDetails > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.formTeamEditDetails > :global(.__wab_flex-container) > *,
+.formTeamEditDetails
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 32px;
+}
+.cardTeamLocation {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.cardTeamLocation > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamLocation > :global(.__wab_flex-container) > *,
+.cardTeamLocation > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary__wCi1A:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.freeBox__w44I7 {
+  height: auto;
+  max-width: 328px;
+}
+.teamLocationGroup {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.teamLocationGroup > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: unset;
+  justify-content: flex-start;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  margin-left: calc(0px - 32px);
+  width: calc(100% + 32px);
+}
+.teamLocationGroup > :global(.__wab_flex-container) > *,
+.teamLocationGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 32px;
+}
+.selectGroupDropdownPrimary__dXqjh:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.inputTextForm:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.cardTeamIndustry {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.cardTeamIndustry > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamIndustry > :global(.__wab_flex-container) > *,
+.cardTeamIndustry > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary__aOyVv:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.freeBox__udK1 {
+  height: auto;
+  max-width: 328px;
+}
+.teamIndustryGroup {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.teamIndustryGroup > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: unset;
+  justify-content: flex-start;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  margin-left: calc(0px - 32px);
+  width: calc(100% + 32px);
+}
+.teamIndustryGroup > :global(.__wab_flex-container) > *,
+.teamIndustryGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 32px;
+}
+.selectGroupDropdownPrimary__uk19U:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.selectGroupDropdownPrimary__w8Uo7:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.cardTeamLanguages {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.cardTeamLanguages > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamLanguages > :global(.__wab_flex-container) > *,
+.cardTeamLanguages > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary__cocoh:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.freeBox__sql16 {
+  height: auto;
+  max-width: 328px;
+}
+.inputGroupTeamLanguages {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.inputGroupTeamLanguages > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: unset;
+  justify-content: flex-start;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  margin-left: calc(0px - 32px);
+  width: calc(100% + 32px);
+}
+.inputGroupTeamLanguages > :global(.__wab_flex-container) > *,
+.inputGroupTeamLanguages
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 32px;
+}
+.selectGroupDropdownPrimary___29RUp:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.selectGroupDropdownPrimary__bId7Q:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.cardTeamSkills {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.cardTeamSkills > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamSkills > :global(.__wab_flex-container) > *,
+.cardTeamSkills > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary__v5Nsz:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  align-self: flex-start;
+}
+.freeBox__z2HG {
+  height: auto;
+  max-width: 328px;
+}
+.inputSearchbarFilterDisplay__tpTgN:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  align-self: flex-start;
+}
+.cardTeamCommunity {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.cardTeamCommunity > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamCommunity > :global(.__wab_flex-container) > *,
+.cardTeamCommunity > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary__spOe3:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  align-self: flex-start;
+}
+.freeBox__wkkqM {
+  height: auto;
+  max-width: 328px;
+}
+.inputSearchbarFilterDisplay__yXnL:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  align-self: flex-start;
+}
+.teamSubmitDetails:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+.svg__lxVo4 {
+  width: 100%;
+  height: 100%;
+  color: #ffffff /* plasmic-token: TRM0EIRKSyuBRFC */;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+}
+.freeBox__gHHsc {
+  font-weight: 600;
+}
+.sectionTeamEditProfileMarkets {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  padding: 16px 180px 32px;
+}
+.sectionTeamEditProfileMarkets > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.sectionTeamEditProfileMarkets > :global(.__wab_flex-container) > *,
+.sectionTeamEditProfileMarkets
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 32px;
+}
+.cardHeaderTitleDisplay___9M1J:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.freeBox___9ISpe {
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+  font-weight: 700;
+}
+.formTeamEditMarkets {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.formTeamEditMarkets > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.formTeamEditMarkets > :global(.__wab_flex-container) > *,
+.formTeamEditMarkets
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 32px;
+}
+.cardTeamMarkets {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.cardTeamMarkets > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamMarkets > :global(.__wab_flex-container) > *,
+.cardTeamMarkets > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary__l5GP:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.freeBox__zejpQ {
+  height: auto;
+  max-width: 328px;
+}
+.teamMarketsGroup {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.teamMarketsGroup > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: unset;
+  justify-content: flex-start;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  margin-left: calc(0px - 32px);
+  width: calc(100% + 32px);
+}
+.teamMarketsGroup > :global(.__wab_flex-container) > *,
+.teamMarketsGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 32px;
+}
+.selectGroupDropdownPrimary__pt9UH:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.selectGroupDropdownPrimary__dpGn0:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.cardTeamProjects {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.cardTeamProjects > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamProjects > :global(.__wab_flex-container) > *,
+.cardTeamProjects > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary___4J1If:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.freeBox__soOs7 {
+  height: auto;
+  max-width: 328px;
+}
+.teamProjectsGroup {
+  display: inline-flex;
+  position: relative;
+  flex-direction: row;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.teamProjectsGroup > :global(.__wab_flex-container) {
+  flex-direction: row;
+  align-items: unset;
+  justify-content: flex-start;
+  align-content: flex-end;
+  flex-wrap: wrap;
+  margin-left: calc(0px - 32px);
+  width: calc(100% + 32px);
+}
+.teamProjectsGroup > :global(.__wab_flex-container) > *,
+.teamProjectsGroup > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-left: 32px;
+}
+.selectGroupDropdownPrimary__muw1L:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.selectGroupDropdownPrimary__fDda:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.cardTeamInterests {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+}
+.cardTeamInterests > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamInterests > :global(.__wab_flex-container) > *,
+.cardTeamInterests > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary__md5N:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  align-self: flex-start;
+}
+.freeBox__uzem {
+  height: auto;
+  max-width: 328px;
+}
+.inputSearchbarFilterDisplay__d2YTm:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  align-self: flex-start;
+}
+.teamSubmitMarkets:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+.svg__kbS5Y {
+  width: 100%;
+  height: 100%;
+  color: #ffffff /* plasmic-token: TRM0EIRKSyuBRFC */;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+}
+.freeBox__rlnq5 {
+  font-weight: 600;
+}
+.sectionTeamEditProfileSocial {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  min-width: 0;
+  padding: 16px 180px 96px;
+}
+.sectionTeamEditProfileSocial > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.sectionTeamEditProfileSocial > :global(.__wab_flex-container) > *,
+.sectionTeamEditProfileSocial
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 32px;
+}
+.cardHeaderTitleDisplay__q4SzY:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+}
+.freeBox__a37IR {
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+  font-weight: 700;
+}
+.formTeamEditSocial {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.formTeamEditSocial > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 32px);
+  height: calc(100% + 32px);
+}
+.formTeamEditSocial > :global(.__wab_flex-container) > *,
+.formTeamEditSocial
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-top: 32px;
+}
+.cardTeamWebsite {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  width: 100%;
+  height: auto;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+  min-width: 0;
+  padding: 0px;
+}
+.cardTeamWebsite > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamWebsite > :global(.__wab_flex-container) > *,
+.cardTeamWebsite > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary__rs3M7:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+  align-self: flex-start;
+}
+.freeBox__mnDtf {
+  height: auto;
+  max-width: 328px;
+}
+.inputTextPrefixSuffix__cyHje:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+}
+.cardTeamSocial {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+}
+.cardTeamSocial > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  align-content: unset;
+  margin-top: calc(0px - 24px);
+  height: calc(100% + 24px);
+}
+.cardTeamSocial > :global(.__wab_flex-container) > *,
+.cardTeamSocial > :global(.__wab_flex-container) > :global(.__wab_slot) > * {
+  margin-top: 24px;
+}
+.cardHeaderTitlePrimary__ccyfs:global(.__wab_instance) {
+  position: relative;
+  top: auto;
+  left: auto;
+}
+.freeBox__xjGce {
+  color: #000000 /* plasmic-token: K3rkTqBqZfRAL15 */;
+}
+.freeBox__cCqsw {
+  height: auto;
+  max-width: 328px;
+}
+.inputGroupTeamSocial {
+  display: inline-flex;
+  position: relative;
+  flex-direction: column;
+  width: auto;
+  height: auto;
+  left: auto;
+  top: auto;
+}
+.inputGroupTeamSocial > :global(.__wab_flex-container) {
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  align-content: unset;
+  flex-wrap: nowrap;
+  margin-left: calc(0px - 24px);
+  width: calc(100% + 24px);
+  margin-top: calc(0px - 0px);
+  height: calc(100% + 0px);
+}
+.inputGroupTeamSocial > :global(.__wab_flex-container) > *,
+.inputGroupTeamSocial
+  > :global(.__wab_flex-container)
+  > :global(.__wab_slot)
+  > * {
+  margin-left: 24px;
+  margin-top: 0px;
+}
+.cardSocialConnectSwitch__wOtP9:global(.__wab_instance) {
+  position: relative;
+}
+.cardSocialConnectSwitch___7VuI4:global(.__wab_instance) {
+  position: relative;
+}
+.cardSocialConnectSwitch__yJiE:global(.__wab_instance) {
+  position: relative;
+}
+.cardSocialConnectSwitch__rS6Mn:global(.__wab_instance) {
+  position: relative;
+}
+.cardSocialConnectSwitch__mNqsx:global(.__wab_instance) {
+  position: relative;
+}
+.cardSocialConnectSwitch__bp01A:global(.__wab_instance) {
+  position: relative;
+}
+.cardSocialConnectSwitch__rCOyt:global(.__wab_instance) {
+  position: relative;
+}
+.cardSocialConnectSwitch__hCnBh:global(.__wab_instance) {
+  position: relative;
+}
+.teamSubmitSocials:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  align-self: flex-start;
+  flex-shrink: 0;
+}
+.svg___6EhGl {
+  width: 100%;
+  height: 100%;
+  color: #ffffff /* plasmic-token: TRM0EIRKSyuBRFC */;
+  object-fit: cover;
+  min-width: 0;
+  min-height: 0;
+}
+.freeBox__eiReU {
+  font-weight: 600;
+}
+.footerB:global(.__wab_instance) {
+  position: relative;
+  left: auto;
+  top: auto;
+  bottom: auto;
+  right: auto;
+}
